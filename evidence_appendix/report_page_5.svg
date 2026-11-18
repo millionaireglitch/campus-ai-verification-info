@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="1100" viewBox="0 0 850 1100">
+      <rect width="850" height="1100" fill="#ffffff"/>
+      <rect x="0" y="0" width="850" height="16" fill="#1e3a8a"/>
+      <text x="50" y="55" fill="#1e3a8a" font-family="sans-serif" font-size="16" font-weight="bold">DELIVERABLE D: NUMERICAL REASONING &amp; CALCULATION SHEET (15 MARKS)</text>
+      <text x="50" y="75" fill="#64748b" font-family="sans-serif" font-size="11">Exact Mathematical Derivations, Intermediate Workings, Statistical Biases, and Python Audit</text>
+
+      <!-- Calculation Cards Grid -->
+      <!-- Card 1: Entry to Reg Ratio -->
+      <rect x="50" y="90" width="365" height="160" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="90" width="365" height="26" fill="#1e293b"/>
+      <text x="60" y="108" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">1. ENTRY-RECORD-TO-REGISTRATION RATIO</text>
+      <text x="60" y="132" fill="#0284c7" font-family="monospace" font-size="10" font-weight="bold">Formula: (Entry Records ÷ Registrations) × 100</text>
+      <text x="60" y="152" fill="#334155" font-family="sans-serif" font-size="9.5">• Step 1: 312 ÷ 480 = 0.65</text>
+      <text x="60" y="168" fill="#334155" font-family="sans-serif" font-size="9.5">• Step 2: 0.65 × 100 = <tspan font-weight="bold" fill="#0284c7">65.00%</tspan></text>
+      <text x="60" y="190" fill="#334155" font-family="sans-serif" font-size="9"><tspan font-weight="bold">Interpretation:</tspan> 65.0% of registrants have entry records.</text>
+      <text x="60" y="206" fill="#d97706" font-family="sans-serif" font-size="8.5" font-weight="bold">Caveat: Raw scans; unique students &lt;= 65% if duplicates exist.</text>
+
+      <!-- Card 2: Feedback to Entry Ratio -->
+      <rect x="435" y="90" width="365" height="160" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="435" y="90" width="365" height="26" fill="#1e293b"/>
+      <text x="445" y="108" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">2. FEEDBACK-RESPONSE RATIOS</text>
+      <text x="445" y="132" fill="#0284c7" font-family="monospace" font-size="10" font-weight="bold">Formula: (Feedback Responses ÷ Entry Records) × 100</text>
+      <text x="445" y="152" fill="#334155" font-family="sans-serif" font-size="9.5">• Step 1: 96 ÷ 312 = 0.3076923...</text>
+      <text x="445" y="168" fill="#334155" font-family="sans-serif" font-size="9.5">• Step 2: 0.3076923... × 100 = <tspan font-weight="bold" fill="#0284c7">30.77% (or 30.8%)</tspan></text>
+      <text x="445" y="190" fill="#334155" font-family="sans-serif" font-size="9"><tspan font-weight="bold">Feedback to Registrations:</tspan> 96 ÷ 480 × 100 = <tspan font-weight="bold">20.00%</tspan></text>
+      <text x="445" y="206" fill="#d97706" font-family="sans-serif" font-size="8.5" font-weight="bold">Caveat: 69.23% non-response rate among attendees.</text>
+
+      <!-- Card 3: Budget Remaining -->
+      <rect x="50" y="265" width="365" height="160" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="265" width="365" height="26" fill="#1e293b"/>
+      <text x="60" y="283" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">3. BUDGET REMAINING &amp; NET COLLEGE OUTLAY</text>
+      <text x="60" y="307" fill="#0284c7" font-family="monospace" font-size="10" font-weight="bold">Formula: Approved Budget − Recorded Expenses</text>
+      <text x="60" y="327" fill="#334155" font-family="sans-serif" font-size="9.5">• Gross Remaining: ₹1,20,000 − ₹1,08,500 = <tspan font-weight="bold" fill="#16a34a">₹11,500</tspan></text>
+      <text x="60" y="347" fill="#334155" font-family="sans-serif" font-size="9.5">• Confirmed Sponsor Transfer: <tspan font-weight="bold">₹75,000</tspan></text>
+      <text x="60" y="367" fill="#334155" font-family="sans-serif" font-size="9.5">• Net College Outlay: ₹1,08,500 − ₹75,000 = <tspan font-weight="bold" fill="#16a34a">₹33,500</tspan></text>
+      <text x="60" y="388" fill="#334155" font-family="sans-serif" font-size="9"><tspan font-weight="bold">Net Institutional Savings:</tspan> ₹1,20,000 − ₹33,500 = <tspan font-weight="bold" fill="#16a34a">₹86,500</tspan></text>
+
+      <!-- Card 4: Budget Utilisation -->
+      <rect x="435" y="265" width="365" height="160" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="435" y="265" width="365" height="26" fill="#1e293b"/>
+      <text x="445" y="283" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">4. BUDGET UTILISATION RATIO</text>
+      <text x="445" y="307" fill="#0284c7" font-family="monospace" font-size="10" font-weight="bold">Formula: (Recorded Expenses ÷ Approved Budget) × 100</text>
+      <text x="445" y="327" fill="#334155" font-family="sans-serif" font-size="9.5">• Step 1: ₹1,08,500 ÷ ₹1,20,000 = 0.9041666...</text>
+      <text x="445" y="347" fill="#334155" font-family="sans-serif" font-size="9.5">• Step 2: 0.9041666... × 100 = <tspan font-weight="bold" fill="#0284c7">90.42%</tspan></text>
+      <text x="445" y="368" fill="#334155" font-family="sans-serif" font-size="9"><tspan font-weight="bold">Interpretation:</tspan> Spent 90.42% of approved cap.</text>
+      <text x="445" y="388" fill="#16a34a" font-family="sans-serif" font-size="8.5" font-weight="bold">Event concluded 9.58% (₹11,500) within institutional ceiling.</text>
+
+      <!-- Detailed Interpretations -->
+      <rect x="50" y="445" width="750" height="200" rx="4" fill="#fffbeb" stroke="#fef08a"/>
+      <text x="65" y="470" fill="#92400e" font-family="sans-serif" font-size="12" font-weight="bold">WHY THE 4.1/5 SCORE CANNOT BE AUTOMATICALLY GENERALISED</text>
+      
+      <text x="65" y="495" fill="#78350f" font-family="sans-serif" font-size="10.5">1. <tspan font-weight="bold">Voluntary Response (Self-Selection) Bias:</tspan> The feedback form was voluntary. Participants who take the initiative</text>
+      <text x="80" y="512" fill="#78350f" font-family="sans-serif" font-size="10">to complete post-event forms usually possess strongly positive sentiments or high personal investment. Disengaged or dissatisfied</text>
+      <text x="80" y="528" fill="#78350f" font-family="sans-serif" font-size="10">attendees disproportionately drop out without responding.</text>
+
+      <text x="65" y="550" fill="#78350f" font-family="sans-serif" font-size="10.5">2. <tspan font-weight="bold">Severe Non-Response Rate (69.23%):</tspan> Only 96 out of 312 recorded entries (and 480 registrants) submitted ratings.</text>
+      <text x="80" y="567" fill="#78350f" font-family="sans-serif" font-size="10">A response rate of 30.77% means that more than two-thirds of attendees are entirely unaccounted for. Statistically, one cannot</text>
+      <text x="80" y="583" fill="#78350f" font-family="sans-serif" font-size="10">infer the population mean of 480 people from an unstratified, self-selected sample of 96.</text>
+
+      <text x="65" y="605" fill="#78350f" font-family="sans-serif" font-size="10.5">3. <tspan font-weight="bold">Unchecked Duplication Distortion:</tspan> If the 312 entry records include duplicate scans across the 3 days, the true denominator</text>
+      <text x="80" y="622" fill="#78350f" font-family="sans-serif" font-size="10">of unique individuals is lower, further clouding sample representativeness.</text>
+
+      <!-- Why Employability is Impossible to Conclude -->
+      <rect x="50" y="660" width="750" height="190" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+      <text x="65" y="685" fill="#991b1b" font-family="sans-serif" font-size="12" font-weight="bold">WHY THE SUPPLIED DATA CANNOT SUPPORT "70% EMPLOYABILITY IMPROVEMENT"</text>
+      
+      <text x="65" y="710" fill="#7f1d1d" font-family="sans-serif" font-size="10.5">1. <tspan font-weight="bold">Absence of Longitudinal Measurement:</tspan> Employability is an outcome metric requiring baseline skill assessment, post-event</text>
+      <text x="80" y="727" fill="#7f1d1d" font-family="sans-serif" font-size="10">evaluation, and a 6-to-12-month employment tracer study. A 3-day awareness workshop cannot measure long-term job outcomes.</text>
+
+      <text x="65" y="748" fill="#7f1d1d" font-family="sans-serif" font-size="10.5">2. <tspan font-weight="bold">Explicit Lack of Evidence in Case Records:</tspan> The case table explicitly mandates: <tspan font-style="italic">"Employability outcomes: No follow-up survey</tspan></text>
+      <text x="80" y="765" fill="#7f1d1d" font-family="sans-serif" font-size="10"><tspan font-style="italic">or employment outcome data supplied."</tspan> Any claim of numerical employability is an empirical fabrication.</text>
+
+      <text x="65" y="787" fill="#7f1d1d" font-family="sans-serif" font-size="10.5">3. <tspan font-weight="bold">Admission of Fictional Origin in Meeting Minutes:</tspan> The Faculty Lead explicitly stated: <tspan font-style="italic">"Someone said 70% of participants</tspan></text>
+      <text x="80" y="804" fill="#7f1d1d" font-family="sans-serif" font-size="10"><tspan font-style="italic">became more employable. I don’t know where that number came from. Don’t present it as a result."</tspan></text>
+
+      <!-- AI Analysis Audit Check -->
+      <rect x="50" y="865" width="750" height="170" rx="4" fill="#f0fdf4" stroke="#86efac"/>
+      <text x="65" y="890" fill="#166534" font-family="sans-serif" font-size="12" font-weight="bold">INDEPENDENT AUDIT OF AI ANALYSIS TOOL (JULIUS AI PYTHON RECALCULATION)</text>
+      <text x="65" y="912" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">AI Error Identified:</tspan> When initially summarizing, an unconstrained chatbot subtracted recorded expenses (₹1,08,500) from confirmed sponsor</text>
+      <text x="80" y="929" fill="#334155" font-family="sans-serif" font-size="10">funds (₹75,000) and hallucinated that the event ran a "₹33,500 budget deficit", ignoring the ₹1,20,000 approved institutional ceiling!</text>
+      <text x="65" y="950" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Human Checker Correction:</tspan> In reality, the event generated a ₹11,500 surplus on approved budget, and the college outlay was merely ₹33,500</text>
+      <text x="80" y="966" fill="#334155" font-family="sans-serif" font-size="10">after applying the ₹75,000 sponsor contribution. Every formula verified independently by hand and Python execution log.</text>
+
+      <text x="50" y="1060" fill="#94a3b8" font-family="sans-serif" font-size="10">Page 5 of 8 • Campus Innovation Week Verification Report</text>
+    </svg>

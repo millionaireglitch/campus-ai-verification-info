@@ -1,0 +1,86 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+      <defs>
+        <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+          <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.3"/>
+        </filter>
+      </defs>
+      <!-- Background Window -->
+      <rect width="1000" height="620" rx="12" fill="#0f172a"/>
+      <!-- Header bar -->
+      <rect x="0" y="0" width="1000" height="50" rx="12" fill="#1e293b"/>
+      <circle cx="25" cy="25" r="6" fill="#ef4444"/>
+      <circle cx="45" cy="25" r="6" fill="#f59e0b"/>
+      <circle cx="65" cy="25" r="6" fill="#10b981"/>
+      <text x="100" y="31" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica" font-size="14" font-weight="600">Otter.ai Workspace — Campus Innovation Week Post-Event Debrief (Audio Sync Transcript)</text>
+      <rect x="830" y="12" width="150" height="26" rx="6" fill="#3b82f6"/>
+      <text x="850" y="29" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, sans-serif" font-size="12" font-weight="600">Sync Active • 00:42:18</text>
+
+      <!-- Sidebar -->
+      <rect x="20" y="70" width="220" height="530" rx="8" fill="#1e293b"/>
+      <text x="35" y="100" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Speakers Diarized</text>
+      <rect x="35" y="115" width="190" height="32" rx="4" fill="#334155"/>
+      <circle cx="50" cy="131" r="8" fill="#38bdf8"/>
+      <text x="65" y="136" fill="#f8fafc" font-family="sans-serif" font-size="12">Event Coordinator (42%)</text>
+      
+      <rect x="35" y="155" width="190" height="32" rx="4" fill="#1e293b"/>
+      <circle cx="50" cy="171" r="8" fill="#a855f7"/>
+      <text x="65" y="176" fill="#cbd5e1" font-family="sans-serif" font-size="12">Finance Rep (24%)</text>
+      
+      <rect x="35" y="195" width="190" height="32" rx="4" fill="#1e293b"/>
+      <circle cx="50" cy="211" r="8" fill="#f59e0b"/>
+      <text x="65" y="216" fill="#cbd5e1" font-family="sans-serif" font-size="12">Faculty Lead (18%)</text>
+      
+      <rect x="35" y="235" width="190" height="32" rx="4" fill="#1e293b"/>
+      <circle cx="50" cy="251" r="8" fill="#10b981"/>
+      <text x="65" y="256" fill="#cbd5e1" font-family="sans-serif" font-size="12">Student Volunteer (16%)</text>
+
+      <line x1="35" y1="285" x2="225" y2="285" stroke="#475569" stroke-width="1"/>
+      <text x="35" y="310" fill="#94a3b8" font-family="sans-serif" font-size="12" font-weight="bold">AI AUTOMATED AUDIT</text>
+      <rect x="35" y="325" width="190" height="60" rx="6" fill="#450a0a" stroke="#b91c1c"/>
+      <text x="45" y="345" fill="#fca5a5" font-family="sans-serif" font-size="11" font-weight="bold">Flagged Claims Detected:</text>
+      <text x="45" y="362" fill="#fecaca" font-family="sans-serif" font-size="11">• 70% Employability (Unverified)</text>
+      <text x="45" y="377" fill="#fecaca" font-family="sans-serif" font-size="11">• NPII-7 Standard (Phantom)</text>
+
+      <!-- Main Transcript Content Area -->
+      <rect x="260" y="70" width="720" height="530" rx="8" fill="#1e293b"/>
+      
+      <!-- Utterance 1 -->
+      <circle cx="285" cy="105" r="14" fill="#38bdf8"/>
+      <text x="281" y="110" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">EC</text>
+      <text x="310" y="103" fill="#38bdf8" font-family="sans-serif" font-size="13" font-weight="bold">Event Coordinator</text>
+      <text x="450" y="103" fill="#64748b" font-family="sans-serif" font-size="11">00:04:12 • Verified against ticket logs</text>
+      <text x="310" y="125" fill="#e2e8f0" font-family="sans-serif" font-size="13">“We had <tspan fill="#38bdf8" font-weight="bold">480 registrations</tspan>. The entry sheet shows <tspan fill="#38bdf8" font-weight="bold">312 entries</tspan>, but I haven’t checked duplicate scans. </text>
+      <text x="310" y="145" fill="#e2e8f0" font-family="sans-serif" font-size="13">Ninety-six people submitted feedback. The average rating was <tspan fill="#38bdf8" font-weight="bold">4.1 out of 5</tspan>.”</text>
+      
+      <!-- Utterance 2 -->
+      <circle cx="285" cy="190" r="14" fill="#a855f7"/>
+      <text x="281" y="195" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">FR</text>
+      <text x="310" y="188" fill="#c084fc" font-family="sans-serif" font-size="13" font-weight="bold">Finance Representative</text>
+      <text x="470" y="188" fill="#64748b" font-family="sans-serif" font-size="11">00:11:35 • Ledger Check</text>
+      <text x="310" y="210" fill="#e2e8f0" font-family="sans-serif" font-size="13">“The approved budget was <tspan fill="#38bdf8" font-weight="bold">₹1,20,000</tspan>. Recorded expenses currently total <tspan fill="#38bdf8" font-weight="bold">₹1,08,500</tspan>. </text>
+      <text x="310" y="230" fill="#e2e8f0" font-family="sans-serif" font-size="13">The sponsor transfer of <tspan fill="#38bdf8" font-weight="bold">₹75,000</tspan> is confirmed.”</text>
+
+      <!-- Utterance 3 - Faculty Lead with Red Flag -->
+      <circle cx="285" cy="280" r="14" fill="#f59e0b"/>
+      <text x="281" y="285" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">FL</text>
+      <text x="310" y="278" fill="#fbbf24" font-family="sans-serif" font-size="13" font-weight="bold">Faculty Lead</text>
+      <text x="410" y="278" fill="#64748b" font-family="sans-serif" font-size="11">00:18:44 • Warning Interjection</text>
+      <rect x="310" y="295" width="650" height="52" rx="4" fill="#7f1d1d" fill-opacity="0.3" stroke="#ef4444"/>
+      <text x="320" y="315" fill="#fecaca" font-family="sans-serif" font-size="13">“Someone said <tspan fill="#ef4444" font-weight="bold">70% of participants became more employable</tspan>. I don’t know where that </text>
+      <text x="320" y="335" fill="#fecaca" font-family="sans-serif" font-size="13">number came from. <tspan font-weight="bold" fill="#ffffff">Don’t present it as a result.”</tspan></text>
+
+      <!-- Utterance 4 - Student Volunteer -->
+      <circle cx="285" cy="385" r="14" fill="#10b981"/>
+      <text x="281" y="390" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">SV</text>
+      <text x="310" y="383" fill="#34d399" font-family="sans-serif" font-size="13" font-weight="bold">Student Volunteer</text>
+      <text x="435" y="383" fill="#64748b" font-family="sans-serif" font-size="11">00:26:02 • AI Copy-Paste Admission</text>
+      <rect x="310" y="400" width="650" height="52" rx="4" fill="#7f1d1d" fill-opacity="0.3" stroke="#ef4444"/>
+      <text x="320" y="420" fill="#fecaca" font-family="sans-serif" font-size="13">“The draft says <tspan fill="#ef4444" font-weight="bold">NPII-7 is a globally accepted AI verification standard</tspan>. I copied that from an </text>
+      <text x="320" y="440" fill="#fecaca" font-family="sans-serif" font-size="13">AI answer; <tspan font-weight="bold" fill="#ffffff">I have no official source.”</tspan></text>
+
+      <!-- Otter Cleanup &amp; Verification Badge -->
+      <rect x="310" y="475" width="650" height="100" rx="6" fill="#0f172a" stroke="#38bdf8"/>
+      <text x="330" y="505" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">Verification Team Cleanup Note:</text>
+      <text x="330" y="528" fill="#94a3b8" font-family="sans-serif" font-size="12">• Audio timestamp matches oral debrief. Speaker statements preserved verbatim.</text>
+      <text x="330" y="548" fill="#ef4444" font-family="sans-serif" font-size="12">• CRITICAL FINDING: Both controversial draft claims originated from unverified hearsay and unprompted AI confabulation.</text>
+    </svg>

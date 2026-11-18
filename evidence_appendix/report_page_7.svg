@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="1100" viewBox="0 0 850 1100">
+      <rect width="850" height="1100" fill="#ffffff"/>
+      <rect x="0" y="0" width="850" height="16" fill="#1e3a8a"/>
+      <text x="50" y="55" fill="#1e3a8a" font-family="sans-serif" font-size="16" font-weight="bold">DELIVERABLE F: RESPONSIBLE AI WORKFLOW &amp; GOVERNANCE (10 MARKS)</text>
+      <text x="50" y="75" fill="#64748b" font-family="sans-serif" font-size="11">Repeatable 9-Stage Pipeline, Named Role Ownership, Stop Conditions, and Decision Rules</text>
+
+      <!-- 9-Stage Pipeline Diagram Grid -->
+      <rect x="50" y="90" width="750" height="420" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="90" width="750" height="28" fill="#1e293b"/>
+      <text x="65" y="109" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">THE 9-STAGE RESPONSIBLE AI OPERATIONAL WORKFLOW</text>
+
+      <!-- Stage 1 -->
+      <rect x="65" y="130" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="75" y="150" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">1. SOURCE INGESTION</text>
+      <text x="75" y="168" fill="#334155" font-family="sans-serif" font-size="9">Collect raw logs, bank receipts,</text>
+      <text x="75" y="180" fill="#334155" font-family="sans-serif" font-size="9">and verified event rosters.</text>
+      <text x="75" y="196" fill="#0284c7" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Event Coordinator</text>
+
+      <!-- Stage 2 -->
+      <rect x="315" y="130" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="325" y="150" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">2. PROMPT DRAFTING</text>
+      <text x="325" y="168" fill="#334155" font-family="sans-serif" font-size="9">Apply Role, Context, Constraints,</text>
+      <text x="325" y="180" fill="#334155" font-family="sans-serif" font-size="9">and mandatory [VERIFY] rule.</text>
+      <text x="325" y="196" fill="#0284c7" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Verification Lead</text>
+
+      <!-- Stage 3 -->
+      <rect x="565" y="130" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="575" y="150" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">3. AI GENERATION</text>
+      <text x="575" y="168" fill="#334155" font-family="sans-serif" font-size="9">Sandboxed LLM execution;</text>
+      <text x="575" y="180" fill="#334155" font-family="sans-serif" font-size="9">watermarked 'DRAFT UNVERIFIED'.</text>
+      <text x="575" y="196" fill="#b91c1c" font-family="sans-serif" font-size="8.5" font-weight="bold">Air-Gap: Zero Auto-Publish</text>
+
+      <!-- Stage 4 -->
+      <rect x="65" y="225" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="75" y="245" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">4. FACT-CHECKING</text>
+      <text x="75" y="263" fill="#334155" font-family="sans-serif" font-size="9">Audit claims against primary URLs;</text>
+      <text x="75" y="275" fill="#334155" font-family="sans-serif" font-size="9">filter confabulated standards.</text>
+      <text x="75" y="291" fill="#0284c7" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Faculty Reviewer</text>
+
+      <!-- Stage 5 -->
+      <rect x="315" y="225" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="325" y="245" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">5. NUMERICAL VALIDATION</text>
+      <text x="325" y="263" fill="#334155" font-family="sans-serif" font-size="9">Deterministic code recalculation</text>
+      <text x="325" y="275" fill="#334155" font-family="sans-serif" font-size="9">via Julius AI Python interpreter.</text>
+      <text x="325" y="291" fill="#0284c7" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Finance Representative</text>
+
+      <!-- Stage 6 -->
+      <rect x="565" y="225" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="575" y="245" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">6. PRIVACY &amp; DPDP REVIEW</text>
+      <text x="575" y="263" fill="#334155" font-family="sans-serif" font-size="9">PII redaction, anonymization, and</text>
+      <text x="575" y="275" fill="#334155" font-family="sans-serif" font-size="9">DPDP Act 2023 legal screening.</text>
+      <text x="575" y="291" fill="#0284c7" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Compliance Officer</text>
+
+      <!-- Stage 7 -->
+      <rect x="65" y="320" width="220" height="80" rx="4" fill="#fdf4ff" stroke="#a855f7"/>
+      <text x="75" y="340" fill="#7e22ce" font-family="sans-serif" font-size="10" font-weight="bold">7. MULTI-ROLE APPROVAL</text>
+      <text x="75" y="358" fill="#334155" font-family="sans-serif" font-size="9">Mandatory 4-point cryptographic</text>
+      <text x="75" y="370" fill="#334155" font-family="sans-serif" font-size="9">digital sign-off gateway.</text>
+      <text x="75" y="386" fill="#7e22ce" font-family="sans-serif" font-size="8.5" font-weight="bold">Rule: 100% Unanimous or Stop</text>
+
+      <!-- Stage 8 -->
+      <rect x="315" y="320" width="220" height="80" rx="4" fill="#f0fdf4" stroke="#22c55e"/>
+      <text x="325" y="340" fill="#15803d" font-family="sans-serif" font-size="10" font-weight="bold">8. CONTROLLED RELEASE</text>
+      <text x="325" y="358" fill="#334155" font-family="sans-serif" font-size="9">Release trigger to student channels</text>
+      <text x="325" y="370" fill="#334155" font-family="sans-serif" font-size="9">and Principal's executive desk.</text>
+      <text x="325" y="386" fill="#15803d" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Communications Lead</text>
+
+      <!-- Stage 9 -->
+      <rect x="565" y="320" width="220" height="80" rx="4" fill="#eff6ff" stroke="#3b82f6"/>
+      <text x="575" y="340" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">9. RETENTION &amp; AUDIT</text>
+      <text x="575" y="358" fill="#334155" font-family="sans-serif" font-size="9">Store prompt logs, output diffs,</text>
+      <text x="575" y="370" fill="#334155" font-family="sans-serif" font-size="9">and sign-offs for 3-year audit vault.</text>
+      <text x="575" y="386" fill="#0284c7" font-family="sans-serif" font-size="8.5" font-weight="bold">Role: Institutional Registrar</text>
+
+      <text x="65" y="425" fill="#334155" font-family="sans-serif" font-size="10"><tspan font-weight="bold">Prevention of Automated Release:</tspan> The architecture creates a physical air-gap between generative LLM outputs and public release</text>
+      <text x="65" y="442" fill="#334155" font-family="sans-serif" font-size="10">APIs. Zapier webhooks require all 4 role approvals before distribution keys are issued.</text>
+
+      <!-- Stop Condition & Decision Rule Matrix -->
+      <rect x="50" y="530" width="750" height="240" rx="4" fill="#fff1f2" stroke="#fecdd3"/>
+      <text x="65" y="555" fill="#9f1239" font-family="sans-serif" font-size="12" font-weight="bold">SYSTEM STOP CONDITION PROTOCOL &amp; ESCALATION LOGIC</text>
+
+      <text x="65" y="580" fill="#881337" font-family="sans-serif" font-size="10.5" font-weight="bold">1. Stop Condition Trigger Threshold:</text>
+      <text x="65" y="598" fill="#334155" font-family="sans-serif" font-size="10">If ANY primary empirical claim lacks authoritative paper trail, OR if two institutional data sources conflict (e.g., sponsor transfer</text>
+      <text x="65" y="614" fill="#334155" font-family="sans-serif" font-size="10">₹57,000 vs ₹75,000), OR if an AI generation cites unverified statutory acts, the pipeline triggers an <tspan font-weight="bold" fill="#b91c1c">AUTOMATIC PUBLICATION FREEZE</tspan>.</text>
+
+      <text x="65" y="638" fill="#881337" font-family="sans-serif" font-size="10.5" font-weight="bold">2. Mandatory Action Upon Freeze:</text>
+      <text x="65" y="656" fill="#334155" font-family="sans-serif" font-size="10">• Webhook distribution channels are immediately disabled.</text>
+      <text x="65" y="672" fill="#334155" font-family="sans-serif" font-size="10">• The draft is tagged <tspan font-weight="bold">[QUARANTINED - PENDING RECONCILIATION]</tspan>.</text>
+      <text x="65" y="688" fill="#334155" font-family="sans-serif" font-size="10">• A formal 3-part incident memorandum is automatically dispatched to the Event Coordinator and Department Heads.</text>
+
+      <rect x="65" y="705" width="720" height="50" rx="4" fill="#9f1239"/>
+      <text x="75" y="724" fill="#ffffff" font-family="sans-serif" font-size="10.5" font-weight="bold">DECISION RULE MATRIX:</text>
+      <text x="75" y="742" fill="#ffffff" font-family="sans-serif" font-size="9.5">1) Fully Verified &gt; [ACCEPT]  |  2) Ambiguous/Unchecked &gt; [TAG VERIFY]  |  3) Contradicted/Fabricated &gt; [REMOVE &amp; ESCALATE]</text>
+
+      <!-- Roles & Governance Responsibilities -->
+      <rect x="50" y="790" width="750" height="250" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="65" y="815" fill="#1e3a8a" font-family="sans-serif" font-size="12" font-weight="bold">ASSIGNED HUMAN ROLE OWNERSHIP (NO REAL STAFF NAMES INVENTED)</text>
+
+      <text x="65" y="840" fill="#0f172a" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Event Coordinator:</tspan> Owns gate-entry logs, attendance scanning systems, barcode deduplication, and initial agenda collation.</text>
+      <text x="65" y="860" fill="#0f172a" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Finance Representative:</tspan> Owns budget approval vouchers, expense ledgers, tax invoices, bank reconciliation, and sponsor agreements.</text>
+      <text x="65" y="880" fill="#0f172a" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Faculty Reviewer:</tspan> Assesses pedagogical claims, educational impact assessments, academic validity, and workshop curricula.</text>
+      <text x="65" y="900" fill="#0f172a" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Communications Lead:</tspan> Audits public tone, student messaging, brand reputation, ethical disclaimers, and social distribution.</text>
+      <text x="65" y="920" fill="#0f172a" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Compliance Officer:</tspan> Enforces institutional privacy mandates, DPDP Act 2023 compliance, PII redaction, and enterprise cloud ZDR settings.</text>
+
+      <text x="65" y="955" fill="#16a34a" font-family="sans-serif" font-size="10.5" font-weight="bold">Traceability Guarantee: All 5 roles must submit digital cryptographic tokens to Zapier to authorize public release.</text>
+
+      <text x="50" y="1060" fill="#94a3b8" font-family="sans-serif" font-size="10">Page 7 of 8 • Campus Innovation Week Verification Report</text>
+    </svg>

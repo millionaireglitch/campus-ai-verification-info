@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+      <rect width="1000" height="620" rx="12" fill="#0f172a"/>
+      <!-- Header -->
+      <rect x="0" y="0" width="1000" height="50" rx="12" fill="#7f1d1d"/>
+      <circle cx="25" cy="25" r="6" fill="#ffffff"/>
+      <circle cx="45" cy="25" r="6" fill="#ffffff"/>
+      <circle cx="65" cy="25" r="6" fill="#ffffff"/>
+      <text x="100" y="31" fill="#ffffff" font-family="sans-serif" font-size="14" font-weight="bold">🚨 CHALLENGE 7: THE UNEXPECTED TWIST — EMERGENCY PRE-PUBLICATION ESCALATION MEMORANDUM</text>
+
+      <!-- Memo Banner -->
+      <rect x="30" y="70" width="940" height="40" rx="6" fill="#450a0a" stroke="#ef4444"/>
+      <text x="45" y="94" fill="#fca5a5" font-family="sans-serif" font-size="12" font-weight="bold">TIME TO LAUNCH: T-MINUS 60 MINUTES  |  ACTION: IMMEDIATE PUBLICATION FREEZE DECLARED</text>
+
+      <!-- 3-Column Split -->
+      <!-- Column A: Known Facts -->
+      <rect x="30" y="125" width="300" height="465" rx="8" fill="#1e293b" stroke="#10b981"/>
+      <rect x="30" y="125" width="300" height="32" rx="8" fill="#065f46"/>
+      <text x="45" y="146" fill="#a7f3d0" font-family="sans-serif" font-size="12" font-weight="bold">A. KNOWN AUTHORITATIVE FACTS</text>
+      
+      <text x="45" y="180" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold">1. Verified Institutional Records:</text>
+      <text x="45" y="198" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Event Duration: Exactly 3 days.</text>
+      <text x="45" y="215" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Registrations: 480 students.</text>
+      <text x="45" y="232" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Entry gate scans: 312 records.</text>
+      <text x="45" y="250" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Feedback: 96 voluntary forms.</text>
+      <text x="45" y="268" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Feedback score: 4.1 / 5 avg.</text>
+
+      <text x="45" y="305" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold">2. Verified Finance Ledger:</text>
+      <text x="45" y="323" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Approved Budget Cap: ₹1,20,000.</text>
+      <text x="45" y="340" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Incurred Expenses: ₹1,08,500.</text>
+      <text x="45" y="358" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Prior confirmed sponsor: ₹75,000.</text>
+      <text x="45" y="375" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Prior net college outlay: ₹33,500.</text>
+
+      <rect x="45" y="420" width="270" height="150" rx="6" fill="#0f172a"/>
+      <text x="55" y="445" fill="#34d399" font-family="sans-serif" font-size="11" font-weight="bold">Status of Facts:</text>
+      <text x="55" y="468" fill="#94a3b8" font-family="sans-serif" font-size="10">All items backed by signed ERP vouchers</text>
+      <text x="55" y="485" fill="#94a3b8" font-family="sans-serif" font-size="10">and dated logs. Ready for publication</text>
+      <text x="55" y="502" fill="#94a3b8" font-family="sans-serif" font-size="10">once conflicting files are resolved.</text>
+
+      <!-- Column B: Conflicting &amp; Contradicted Points -->
+      <rect x="350" y="125" width="300" height="465" rx="8" fill="#1e293b" stroke="#ef4444"/>
+      <rect x="350" y="125" width="300" height="32" rx="8" fill="#7f1d1d"/>
+      <text x="365" y="146" fill="#fecaca" font-family="sans-serif" font-size="12" font-weight="bold">B. CONFLICTING &amp; UNVERIFIED EVIDENCE</text>
+
+      <text x="365" y="180" fill="#f87171" font-family="sans-serif" font-size="11" font-weight="bold">1. Sponsor Amount Discrepancy:</text>
+      <text x="365" y="200" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Newly uploaded sheet: <tspan fill="#ef4444" font-weight="bold">₹57,000</tspan></text>
+      <text x="365" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Approved case brief: <tspan fill="#10b981" font-weight="bold">₹75,000</tspan></text>
+      <text x="365" y="236" fill="#fca5a5" font-family="sans-serif" font-size="11">• Variance: <tspan fill="#ef4444" font-weight="bold">₹18,000 shortfall (transposition?)</tspan></text>
+      <text x="365" y="254" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Metadata flaw: <tspan fill="#f59e0b">No date, no signature.</tspan></text>
+
+      <text x="365" y="290" fill="#f87171" font-family="sans-serif" font-size="11" font-weight="bold">2. Recency Fallacy Analysis:</text>
+      <text x="365" y="310" fill="#94a3b8" font-family="sans-serif" font-size="10">A recent timestamp does NOT equal authority.</text>
+      <text x="365" y="325" fill="#94a3b8" font-family="sans-serif" font-size="10">The unapproved file could be a draft, partial</text>
+      <text x="365" y="340" fill="#94a3b8" font-family="sans-serif" font-size="10">instalment, or clerical typo (57k vs 75k).</text>
+
+      <text x="365" y="375" fill="#f87171" font-family="sans-serif" font-size="11" font-weight="bold">3. Phantom Legal Citation Hallucination:</text>
+      <text x="365" y="395" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Slide cites: <tspan fill="#ef4444">"AI Output Integrity Act 2024"</tspan></text>
+      <text x="365" y="412" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Hyperlink opens unrelated web portal.</text>
+      <text x="365" y="430" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Diagnosis: Complete LLM confabulation.</text>
+
+      <rect x="365" y="455" width="270" height="115" rx="6" fill="#450a0a"/>
+      <text x="375" y="480" fill="#fca5a5" font-family="sans-serif" font-size="11" font-weight="bold">Immediate Remedial Action:</text>
+      <text x="375" y="500" fill="#fecaca" font-family="sans-serif" font-size="10">• Slide 4 citation excised immediately.</text>
+      <text x="375" y="518" fill="#fecaca" font-family="sans-serif" font-size="10">• Replaced with Institutional Ethical Policy.</text>
+      <text x="375" y="535" fill="#fecaca" font-family="sans-serif" font-size="10">• Broken URL stripped from all decks.</text>
+
+      <!-- Column C: Required Decisions -->
+      <rect x="670" y="125" width="300" height="465" rx="8" fill="#1e293b" stroke="#f59e0b"/>
+      <rect x="670" y="125" width="300" height="32" rx="8" fill="#b45309"/>
+      <text x="685" y="146" fill="#fef3c7" font-family="sans-serif" font-size="12" font-weight="bold">C. DECISIONS REQUIRED BY COORDINATOR</text>
+
+      <text x="685" y="180" fill="#fde047" font-family="sans-serif" font-size="11" font-weight="bold">Decision 1: Sponsor Reconciliation Gate</text>
+      <text x="685" y="200" fill="#cbd5e1" font-family="sans-serif" font-size="11">Do NOT guess or average (₹66k).</text>
+      <text x="685" y="218" fill="#cbd5e1" font-family="sans-serif" font-size="11">Inspect bank NEFT scroll &amp; signed MoU.</text>
+      <text x="685" y="236" fill="#a7f3d0" font-family="sans-serif" font-size="11">IF ₹75k verified &gt; Discard unapproved sheet.</text>
+      <text x="685" y="254" fill="#fca5a5" font-family="sans-serif" font-size="11">IF ₹57k verified &gt; Net college cost = ₹51,500.</text>
+
+      <text x="685" y="290" fill="#fde047" font-family="sans-serif" font-size="11" font-weight="bold">Decision 2: Publication Go/No-Go Call</text>
+      <text x="685" y="310" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Option A: Hold publication 24 hours until</text>
+      <text x="700" y="326" fill="#cbd5e1" font-family="sans-serif" font-size="11">bank confirms receipt voucher.</text>
+      <text x="685" y="345" fill="#cbd5e1" font-family="sans-serif" font-size="11">• Option B: Release student post (which</text>
+      <text x="700" y="361" fill="#cbd5e1" font-family="sans-serif" font-size="11">omits financial figures) while holding</text>
+      <text x="700" y="377" fill="#cbd5e1" font-family="sans-serif" font-size="11">the executive presentation deck.</text>
+
+      <rect x="685" y="415" width="270" height="155" rx="6" fill="#0f172a" stroke="#f59e0b"/>
+      <text x="695" y="440" fill="#fde047" font-family="sans-serif" font-size="11" font-weight="bold">Formal Recommendation:</text>
+      <text x="695" y="465" fill="#f8fafc" font-family="sans-serif" font-size="11">Execute <tspan font-weight="bold" fill="#38bdf8">Option B</tspan>: Clear student-facing</text>
+      <text x="695" y="483" fill="#f8fafc" font-family="sans-serif" font-size="11">materials which contain no financial data.</text>
+      <text x="695" y="501" fill="#f8fafc" font-family="sans-serif" font-size="11">Quarantine executive deck until Accounts</text>
+      <text x="695" y="519" fill="#f8fafc" font-family="sans-serif" font-size="11">officer signs the ₹75k / ₹57k reconciliation.</text>
+      <text x="695" y="547" fill="#34d399" font-family="sans-serif" font-size="10" font-weight="bold">Signed: AI Verification &amp; Audit Team</text>
+    </svg>

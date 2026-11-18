@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="1100" viewBox="0 0 850 1100">
+      <rect width="850" height="1100" fill="#ffffff"/>
+      <rect x="0" y="0" width="850" height="16" fill="#1e3a8a"/>
+      <text x="50" y="55" fill="#1e3a8a" font-family="sans-serif" font-size="16" font-weight="bold">DELIVERABLE E: AUDIENCE-SPECIFIC OUTPUT PACK (10 MARKS)</text>
+      <text x="50" y="75" fill="#64748b" font-family="sans-serif" font-size="11">Verified Outputs Tailored for Principal, Faculty Management, and Student Social Media</text>
+
+      <!-- Output 1: Principal's Brief Box -->
+      <rect x="50" y="90" width="750" height="340" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="90" width="750" height="28" fill="#1e293b"/>
+      <text x="65" y="109" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">OUTPUT 1: ONE-PAGE PRINCIPAL'S BRIEF (EXECUTIVE BRIEFING FORMAT)</text>
+
+      <text x="65" y="135" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="bold">Executive Summary &amp; Event Scope:</text>
+      <text x="65" y="152" fill="#334155" font-family="sans-serif" font-size="10">Campus Innovation Week concluded its 3-day programme with 480 registered students and 312 entry gate records (65.0% turnout ratio,</text>
+      <text x="65" y="167" fill="#334155" font-family="sans-serif" font-size="10">subject to IT deduplication). Financial stewardship was maintained: recorded expenses of ₹1,08,500 remained ₹11,500 under the approved</text>
+      <text x="65" y="182" fill="#334155" font-family="sans-serif" font-size="10">₹1,20,000 ceiling (90.42% utilisation). With ₹75,000 confirmed in sponsor transfers, net college outlay was ₹33,500.</text>
+
+      <text x="65" y="210" fill="#0f172a" font-family="sans-serif" font-size="11" font-weight="bold">Limitations &amp; Reputational Risk Assessment:</text>
+      <text x="65" y="227" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Participant Evaluation:</tspan> 96 voluntary feedback submissions rated the event 4.1/5.0. This reflects motivated respondents only.</text>
+      <text x="65" y="243" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Reputational Safeguard:</tspan> Preliminary drafts containing the claim "70% employability improvement" and referencing "NPII-7" were paused.</text>
+      <text x="65" y="259" fill="#334155" font-family="sans-serif" font-size="10">   Publishing unverified statistical claims exposes the institution to regulatory scrutiny and accreditation downgrades.</text>
+
+      <rect x="65" y="278" width="720" height="70" rx="4" fill="#fef2f2" stroke="#f87171"/>
+      <text x="75" y="296" fill="#991b1b" font-family="sans-serif" font-size="10.5" font-weight="bold">MANDATORY SECTION: WHAT WE CANNOT CONCLUDE</text>
+      <text x="75" y="314" fill="#7f1d1d" font-family="sans-serif" font-size="9.5">• We CANNOT conclude that employability improved by 70%. Zero post-event placement tracking data was collected.</text>
+      <text x="75" y="330" fill="#7f1d1d" font-family="sans-serif" font-size="9.5">• We CANNOT generalize the 4.1/5 rating to all 480 registrants; 69.23% of attendees did not complete feedback.</text>
+      <text x="75" y="344" fill="#7f1d1d" font-family="sans-serif" font-size="9.5">• We CANNOT cite the 'NeuroPrompt Integrity Index (NPII-7)' or 'AI Output Integrity Act 2024'; both are hallucinations.</text>
+
+      <text x="65" y="375" fill="#0f172a" font-family="sans-serif" font-size="10" font-weight="bold">Strategic Recommendations:</text>
+      <text x="65" y="392" fill="#334155" font-family="sans-serif" font-size="9.5">1) Authorize IT deduplication of gate logs. 2) Institute 60-day alumni placement survey. 3) Adopt formal 9-stage AI Governance SOP.</text>
+      <text x="65" y="415" fill="#16a34a" font-family="sans-serif" font-size="10" font-weight="bold">Sign-off: Event Coordinator [VERIFIED]  |  Finance Rep [VERIFIED]  |  Faculty Lead [VERIFIED]  |  Principal [APPROVED]</text>
+
+      <!-- Output 2: 5-Slide Presentation Outline Box -->
+      <rect x="50" y="445" width="750" height="340" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="445" width="750" height="28" fill="#1e293b"/>
+      <text x="65" y="464" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">OUTPUT 2: FIVE-SLIDE PRESENTATION OUTLINE (FACULTY &amp; MANAGEMENT)</text>
+
+      <text x="65" y="490" fill="#0284c7" font-family="sans-serif" font-size="10.5" font-weight="bold">SLIDE 1: Executive Overview &amp; Attendance Metrics</text>
+      <text x="65" y="506" fill="#334155" font-family="sans-serif" font-size="9.5">• Core Message: Campus Innovation Week engaged student innovators across 3 focused tracks.</text>
+      <text x="65" y="521" fill="#334155" font-family="sans-serif" font-size="9.5">• Key Metrics: 480 registered; 312 gate entry records (65.0% ratio). <tspan fill="#d97706">[Caveat: Deduplication pending]</tspan>.</text>
+
+      <text x="65" y="546" fill="#0284c7" font-family="sans-serif" font-size="10.5" font-weight="bold">SLIDE 2: Financial Governance &amp; Budget Performance</text>
+      <text x="65" y="562" fill="#334155" font-family="sans-serif" font-size="9.5">• Core Message: Disciplined fiscal management delivered event 9.58% below budget cap.</text>
+      <text x="65" y="577" fill="#334155" font-family="sans-serif" font-size="9.5">• Key Metrics: Approved: ₹1,20,000 | Spent: ₹1,08,500 | Balance: ₹11,500 | Sponsor: ₹75,000 | Net Cost: ₹33,500.</text>
+
+      <text x="65" y="602" fill="#0284c7" font-family="sans-serif" font-size="10.5" font-weight="bold">SLIDE 3: Participant Feedback &amp; Evaluation Boundaries</text>
+      <text x="65" y="618" fill="#334155" font-family="sans-serif" font-size="9.5">• Core Message: High satisfaction among respondents, bounded by sample size.</text>
+      <text x="65" y="633" fill="#334155" font-family="sans-serif" font-size="9.5">• Key Metrics: 96 voluntary submissions (30.77% response rate) rated event 4.1/5.0 stars.</text>
+
+      <text x="65" y="658" fill="#b91c1c" font-family="sans-serif" font-size="10.5" font-weight="bold">SLIDE 4: Methodological Integrity: What We Cannot Conclude</text>
+      <text x="65" y="674" fill="#7f1d1d" font-family="sans-serif" font-size="9.5">• ❌ 70% Employability claim rejected as unsubstantiated rumor. Zero career tracer data exists.</text>
+      <text x="65" y="689" fill="#7f1d1d" font-family="sans-serif" font-size="9.5">• ❌ NPII-7 &amp; AI Output Integrity Act 2024 removed as synthetic LLM confabulations.</text>
+
+      <text x="65" y="714" fill="#0284c7" font-family="sans-serif" font-size="10.5" font-weight="bold">SLIDE 5: Strategic Next Steps &amp; Governance Roadmap</text>
+      <text x="65" y="730" fill="#334155" font-family="sans-serif" font-size="9.5">• 1) Complete barcode deduplication. 2) Deploy 60-day placement audit. 3) Enforce multi-sign-off AI workflow.</text>
+
+      <!-- Output 3: Student Social Media Post Box -->
+      <rect x="50" y="800" width="750" height="240" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="800" width="750" height="28" fill="#1e293b"/>
+      <text x="65" y="819" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">OUTPUT 3: PUBLIC SOCIAL-MEDIA POST (STUDENTS &amp; COMMUNITY CHANNELS)</text>
+
+      <text x="65" y="845" fill="#0f172a" font-family="sans-serif" font-size="10.5">🚀 <tspan font-weight="bold">That’s a wrap on Campus Innovation Week!</tspan></text>
+      <text x="65" y="865" fill="#334155" font-family="sans-serif" font-size="10">Over 3 intense days of ideation, rapid prototyping, and hands-on workshops, our student community brought</text>
+      <text x="65" y="881" fill="#334155" font-family="sans-serif" font-size="10">incredible creativity and forward-thinking energy to the campus! Here is what we accomplished together:</text>
+
+      <text x="65" y="905" fill="#0284c7" font-family="sans-serif" font-size="10">• ⚡ <tspan font-weight="bold">480 Students</tspan> registered to build practical skills in cutting-edge emerging technologies</text>
+      <text x="65" y="922" fill="#0284c7" font-family="sans-serif" font-size="10">• ⚡ <tspan font-weight="bold">312 Workshop Entries</tspan> logged across three dynamic technical tracks</text>
+      <text x="65" y="939" fill="#0284c7" font-family="sans-serif" font-size="10">• ⚡ <tspan font-weight="bold">4.1 / 5.0 Rating</tspan> from our student feedback respondents!</text>
+
+      <text x="65" y="964" fill="#334155" font-family="sans-serif" font-size="10">Huge thanks to our faculty mentors, student volunteers, and our generous industry sponsors for powering this event.</text>
+      <text x="65" y="982" fill="#0284c7" font-family="sans-serif" font-size="9.5">#CampusInnovation #StudentBuilders #HandsOnTech #ResponsibleAI #InnovationWeek2026</text>
+      <text x="65" y="1005" fill="#16a34a" font-family="sans-serif" font-size="9.5" font-weight="bold">Audit Note: 100% verified facts. Strictly zero unmeasured employability promises or buzzwords.</text>
+
+      <text x="50" y="1060" fill="#94a3b8" font-family="sans-serif" font-size="10">Page 6 of 8 • Campus Innovation Week Verification Report</text>
+    </svg>

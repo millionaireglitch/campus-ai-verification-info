@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+      <rect width="1000" height="620" rx="12" fill="#0b1120"/>
+      <!-- Header -->
+      <rect x="0" y="0" width="1000" height="50" rx="12" fill="#1e293b"/>
+      <circle cx="25" cy="25" r="6" fill="#ef4444"/>
+      <circle cx="45" cy="25" r="6" fill="#f59e0b"/>
+      <circle cx="65" cy="25" r="6" fill="#10b981"/>
+      <text x="100" y="31" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Scribe SOP Builder — Standard Operating Procedure: AI Content Verification &amp; Approval</text>
+      <rect x="850" y="12" width="125" height="26" rx="6" fill="#f97316"/>
+      <text x="865" y="29" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">SOP #AI-2026-04</text>
+
+      <!-- Sidebar -->
+      <rect x="25" y="70" width="220" height="525" rx="8" fill="#1e293b"/>
+      <text x="40" y="100" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">SOP Navigation</text>
+      <rect x="35" y="115" width="200" height="32" rx="4" fill="#3b82f6"/>
+      <text x="45" y="136" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Step 1: Raw Data Ingestion</text>
+      <rect x="35" y="155" width="200" height="32" rx="4" fill="#334155"/>
+      <text x="45" y="176" fill="#cbd5e1" font-family="sans-serif" font-size="11">Step 2: PII Redaction (DPDP)</text>
+      <rect x="35" y="195" width="200" height="32" rx="4" fill="#334155"/>
+      <text x="45" y="216" fill="#cbd5e1" font-family="sans-serif" font-size="11">Step 3: Sandboxed Prompting</text>
+      <rect x="35" y="235" width="200" height="32" rx="4" fill="#334155"/>
+      <text x="45" y="256" fill="#cbd5e1" font-family="sans-serif" font-size="11">Step 4: Fact-Check Gate</text>
+      <rect x="35" y="275" width="200" height="32" rx="4" fill="#334155"/>
+      <text x="45" y="296" fill="#cbd5e1" font-family="sans-serif" font-size="11">Step 5: Sign-off Escalation</text>
+
+      <line x1="35" y1="325" x2="225" y2="325" stroke="#475569" stroke-width="1"/>
+      <text x="40" y="350" fill="#94a3b8" font-family="sans-serif" font-size="11" font-weight="bold">AUTHORIZED ROLES</text>
+      <text x="40" y="375" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Event Coordinator</text>
+      <text x="40" y="395" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Finance Representative</text>
+      <text x="40" y="415" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Faculty Reviewer</text>
+      <text x="40" y="435" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Communications Lead</text>
+
+      <!-- Main Step View -->
+      <rect x="265" y="70" width="710" height="525" rx="8" fill="#1e293b"/>
+      
+      <!-- Step 1 Card -->
+      <rect x="285" y="90" width="670" height="120" rx="6" fill="#0f172a" stroke="#334155"/>
+      <circle cx="315" cy="115" r="14" fill="#3b82f6"/>
+      <text x="310" y="120" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">1</text>
+      <text x="340" y="115" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">Step 1: Screen Recording Capture of Verification Gate</text>
+      <text x="340" y="135" fill="#94a3b8" font-family="sans-serif" font-size="11">Open Primary Ledger (Google Sheets / ERP). Click 'Share' &gt; Restrict Access to Institutional Domain.</text>
+      <rect x="340" y="145" width="220" height="26" rx="4" fill="#059669" fill-opacity="0.2" stroke="#10b981"/>
+      <text x="350" y="162" fill="#34d399" font-family="sans-serif" font-size="11">Evidence Log: SHA-256 Checksum</text>
+
+      <!-- Step 2 Card (PII Scrubbing) -->
+      <rect x="285" y="225" width="670" height="145" rx="6" fill="#0f172a" stroke="#334155"/>
+      <circle cx="315" cy="250" r="14" fill="#3b82f6"/>
+      <text x="310" y="255" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">2</text>
+      <text x="340" y="250" fill="#f8fafc" font-family="sans-serif" font-size="13" font-weight="bold">Step 2: Mandatory Privacy &amp; PII Scrubbing Protocol</text>
+      <text x="340" y="270" fill="#94a3b8" font-family="sans-serif" font-size="11">Execute Python anonymizer on student roster: Redact Student Name, Phone, Email, and Roll Number.</text>
+      <text x="340" y="290" fill="#ef4444" font-family="sans-serif" font-size="11" font-weight="bold">CRITICAL RISK MITIGATION (India DPDP Act 2023 &amp; Global Privacy):</text>
+      <text x="340" y="308" fill="#cbd5e1" font-family="sans-serif" font-size="11">Never upload unredacted student rosters to commercial AI endpoints. Doing so risks permanent</text>
+      <text x="340" y="325" fill="#cbd5e1" font-family="sans-serif" font-size="11">ingestion into training clusters and regulatory non-compliance.</text>
+
+      <!-- Step 3 Card (Stop Condition Rule) -->
+      <rect x="285" y="385" width="670" height="185" rx="6" fill="#450a0a" stroke="#b91c1c"/>
+      <circle cx="315" cy="410" r="14" fill="#ef4444"/>
+      <text x="310" y="415" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">!</text>
+      <text x="340" y="410" fill="#fca5a5" font-family="sans-serif" font-size="13" font-weight="bold">Mandatory Hard Stop Condition Protocol</text>
+      <text x="340" y="435" fill="#fecaca" font-family="sans-serif" font-size="12">IF a key claim lacks primary evidence OR two institutional documents conflict:</text>
+      <text x="360" y="460" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">1. AUTOMATIC PUBLICATION FREEZE: Zapier webhook locks distribution queues.</text>
+      <text x="360" y="480" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">2. RECLASSIFICATION: Content tagged as [QUARANTINED - UNRESOLVED DISCREPANCY].</text>
+      <text x="360" y="500" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">3. ESCALATION: 15-minute emergency memo delivered directly to Event Coordinator.</text>
+      <text x="340" y="535" fill="#fca5a5" font-family="sans-serif" font-size="11">Scribe Verification Trail: SOP approved by Compliance &amp; Faculty Review Board.</text>
+    </svg>

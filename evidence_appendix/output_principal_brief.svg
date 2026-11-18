@@ -1,0 +1,83 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+      <rect width="1000" height="640" rx="12" fill="#ffffff"/>
+      <!-- Letterhead border -->
+      <rect x="0" y="0" width="1000" height="8" rx="4" fill="#1e3a8a"/>
+      
+      <!-- College Header -->
+      <text x="50" y="45" fill="#0f172a" font-family="Georgia, serif" font-size="20" font-weight="bold">EXCELSIOR INSTITUTE OF TECHNOLOGY &amp; MANAGEMENT</text>
+      <text x="50" y="65" fill="#64748b" font-family="sans-serif" font-size="12">Office of Academic Affairs • AI Productivity &amp; Verification Team</text>
+      <line x1="50" y1="78" x2="950" y2="78" stroke="#cbd5e1" stroke-width="1.5"/>
+
+      <!-- Document Title &amp; Meta -->
+      <rect x="50" y="90" width="900" height="42" rx="4" fill="#f1f5f9"/>
+      <text x="65" y="115" fill="#1e293b" font-family="sans-serif" font-size="14" font-weight="bold">EXECUTIVE BRIEF: CAMPUS INNOVATION WEEK OUTCOMES &amp; GOVERNANCE AUDIT</text>
+      <text x="750" y="115" fill="#64748b" font-family="sans-serif" font-size="11">DATE: 18 NOV 2026</text>
+
+      <!-- Section 1: Executive Overview -->
+      <text x="50" y="155" fill="#1e3a8a" font-family="sans-serif" font-size="13" font-weight="bold">1. EXECUTIVE OVERVIEW &amp; VERIFIED DATA MATRIX</text>
+      <text x="50" y="175" fill="#334155" font-family="sans-serif" font-size="11">Campus Innovation Week was successfully conducted over 3 days. The verified operational and financial numbers are:</text>
+
+      <!-- Data Table -->
+      <rect x="50" y="185" width="900" height="110" rx="4" fill="#f8fafc" stroke="#e2e8f0"/>
+      <!-- Header row -->
+      <rect x="50" y="185" width="900" height="25" fill="#e2e8f0"/>
+      <text x="60" y="202" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">METRIC / INDICATOR</text>
+      <text x="280" y="202" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">SUPPLIED FIGURE</text>
+      <text x="440" y="202" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">VERIFIED RATIO / DERIVATION</text>
+      <text x="700" y="202" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">DATA AUDIT STATUS</text>
+
+      <text x="60" y="225" fill="#334155" font-family="sans-serif" font-size="10">Event Registrations vs Entries</text>
+      <text x="280" y="225" fill="#334155" font-family="sans-serif" font-size="10">480 Registered | 312 Scans</text>
+      <text x="440" y="225" fill="#0284c7" font-family="sans-serif" font-size="10" font-weight="bold">65.0% Attendance Turnout</text>
+      <text x="700" y="225" fill="#d97706" font-family="sans-serif" font-size="10">[VERIFY: Duplicate Scans Unchecked]</text>
+
+      <text x="60" y="245" fill="#334155" font-family="sans-serif" font-size="10">Participant Feedback</text>
+      <text x="280" y="245" fill="#334155" font-family="sans-serif" font-size="10">96 Responses | 4.1/5 Avg Rating</text>
+      <text x="440" y="245" fill="#0284c7" font-family="sans-serif" font-size="10" font-weight="bold">30.77% of attendees / 20.0% registered</text>
+      <text x="700" y="245" fill="#16a34a" font-family="sans-serif" font-size="10">Verified Sample (Voluntary Survey)</text>
+
+      <text x="60" y="265" fill="#334155" font-family="sans-serif" font-size="10">Approved Budget vs Expenses</text>
+      <text x="280" y="265" fill="#334155" font-family="sans-serif" font-size="10">₹1,20,000 Cap | ₹1,08,500 Spent</text>
+      <text x="440" y="265" fill="#0284c7" font-family="sans-serif" font-size="10" font-weight="bold">₹11,500 Remaining (90.42% util)</text>
+      <text x="700" y="265" fill="#16a34a" font-family="sans-serif" font-size="10">Reconciled on college ledger</text>
+
+      <text x="60" y="285" fill="#334155" font-family="sans-serif" font-size="10">Confirmed Sponsor Contribution</text>
+      <text x="280" y="285" fill="#334155" font-family="sans-serif" font-size="10">₹75,000 Confirmed Transfer</text>
+      <text x="440" y="285" fill="#0284c7" font-family="sans-serif" font-size="10" font-weight="bold">Net College Expense: ₹33,500</text>
+      <text x="700" y="285" fill="#16a34a" font-family="sans-serif" font-size="10">Bank NEFT Advice Verified</text>
+
+      <!-- Section 2: WHAT WE CANNOT CONCLUDE (Crucial Section) -->
+      <rect x="50" y="310" width="900" height="95" rx="4" fill="#fef2f2" stroke="#f87171"/>
+      <text x="65" y="328" fill="#991b1b" font-family="sans-serif" font-size="12" font-weight="bold">2. MANDATORY EXCLUSIONS: WHAT WE CANNOT CONCLUDE</text>
+      <text x="65" y="348" fill="#7f1d1d" font-family="sans-serif" font-size="10.5">• <tspan font-weight="bold">Employability Claim:</tspan> The draft assertion that employability improved by 70% is <tspan font-weight="bold">strictly unsubstantiated</tspan>. Zero longitudinal tracking data exists.</text>
+      <text x="65" y="366" fill="#7f1d1d" font-family="sans-serif" font-size="10.5">• <tspan font-weight="bold">Phantom Standards:</tspan> References to 'NeuroPrompt Integrity Index (NPII-7)' and 'AI Output Integrity Act 2024' are <tspan font-weight="bold">AI hallucinations</tspan> and have been removed.</text>
+      <text x="65" y="384" fill="#7f1d1d" font-family="sans-serif" font-size="10.5">• <tspan font-weight="bold">Generalised Satisfaction:</tspan> The 4.1/5 rating reflects 96 voluntary submissions and cannot be mathematically generalized to all 480 registrants.</text>
+
+      <!-- Section 3: Strategic Recommendations -->
+      <text x="50" y="430" fill="#1e3a8a" font-family="sans-serif" font-size="13" font-weight="bold">3. REPUTATIONAL RISKS &amp; STRATEGIC RECOMMENDATIONS FOR PRINCIPAL SIGN-OFF</text>
+      <text x="50" y="450" fill="#334155" font-family="sans-serif" font-size="11">• <tspan font-weight="bold">Risk Mitigation:</tspan> Publishing unverified employability figures risks UGC/NAAC regulatory audit penalties and student trust erosion.</text>
+      <text x="50" y="470" fill="#334155" font-family="sans-serif" font-size="11">• <tspan font-weight="bold">IT Attendance Deduplication:</tspan> Direct the campus IT team to deduplicate the 312 gate entry scans to calculate unique attendee counts.</text>
+      <text x="50" y="490" fill="#334155" font-family="sans-serif" font-size="11">• <tspan font-weight="bold">Adopt Responsible AI Policy:</tspan> Mandate the 9-stage approval workflow with strict multi-role human sign-offs before external releases.</text>
+
+      <!-- Signature &amp; Sign-off Block -->
+      <line x1="50" y1="520" x2="950" y2="520" stroke="#cbd5e1" stroke-width="1"/>
+      <rect x="50" y="530" width="200" height="85" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="60" y="550" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">Prepared by:</text>
+      <text x="60" y="568" fill="#0284c7" font-family="sans-serif" font-size="11" font-weight="bold">AI Verification Team</text>
+      <text x="60" y="585" fill="#64748b" font-family="sans-serif" font-size="9">Status: Verified &amp; Screened</text>
+
+      <rect x="280" y="530" width="200" height="85" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="290" y="550" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">Finance Concurrence:</text>
+      <text x="290" y="568" fill="#16a34a" font-family="sans-serif" font-size="11" font-weight="bold">Finance Representative</text>
+      <text x="290" y="585" fill="#64748b" font-family="sans-serif" font-size="9">Status: ₹75,000 NEFT Cleared</text>
+
+      <rect x="510" y="530" width="200" height="85" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="520" y="550" fill="#1e293b" font-family="sans-serif" font-size="10" font-weight="bold">Faculty Review:</text>
+      <text x="520" y="568" fill="#16a34a" font-family="sans-serif" font-size="11" font-weight="bold">Faculty Lead</text>
+      <text x="520" y="585" fill="#64748b" font-family="sans-serif" font-size="9">Status: Academic Claims Cleared</text>
+
+      <rect x="740" y="530" width="210" height="85" rx="4" fill="#f8fafc" stroke="#1e3a8a"/>
+      <text x="750" y="550" fill="#1e3a8a" font-family="sans-serif" font-size="10" font-weight="bold">Principal Final Approval:</text>
+      <text x="750" y="575" fill="#64748b" font-family="sans-serif" font-size="10">[PENDING SIGNATURE]</text>
+      <text x="750" y="595" fill="#64748b" font-family="sans-serif" font-size="9">Dr. V. Principal • Head of Inst.</text>
+    </svg>

@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Campus Innovation Week - AI Verification Report</title>
+  <style>
+    :root {
+      --primary: #1e3a8a;
+      --primary-light: #3b82f6;
+      --accent: #0284c7;
+      --bg: #f8fafc;
+      --card-bg: #ffffff;
+      --text: #0f172a;
+      --text-muted: #64748b;
+      --danger: #ef4444;
+      --danger-bg: #fef2f2;
+      --warning: #f59e0b;
+      --warning-bg: #fffbeb;
+      --success: #10b981;
+      --success-bg: #f0fdf4;
+      --border: #e2e8f0;
+    }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+    .header-banner {
+      background: linear-gradient(135deg, #0f172a 0%, #1e3a8a 100%);
+      color: #ffffff;
+      padding: 40px 20px;
+      text-align: center;
+      border-bottom: 4px solid var(--primary-light);
+    }
+    .header-banner h1 {
+      margin: 0 0 10px 0;
+      font-size: 28px;
+      letter-spacing: -0.5px;
+    }
+    .header-banner p {
+      margin: 0;
+      color: #94a3b8;
+      font-size: 14px;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 30px auto;
+      padding: 0 20px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      font-size: 11px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .badge-danger { background: var(--danger-bg); color: #991b1b; border: 1px solid #fecaca; }
+    .badge-success { background: var(--success-bg); color: #166534; border: 1px solid #bbf7d0; }
+    .badge-warning { background: var(--warning-bg); color: #92400e; border: 1px solid #fef08a; }
+    .badge-info { background: #eff6ff; color: #1e40af; border: 1px solid #bfdbfe; }
+    
+    .card {
+      background: var(--card-bg);
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      padding: 24px;
+      margin-bottom: 24px;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+    }
+    .card h2 {
+      margin-top: 0;
+      font-size: 18px;
+      color: var(--primary);
+      border-bottom: 2px solid var(--border);
+      padding-bottom: 8px;
+    }
+    .card h3 {
+      font-size: 15px;
+      color: #1e293b;
+      margin-top: 18px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+    th, td {
+      padding: 10px 12px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    th {
+      background-color: #f1f5f9;
+      color: #334155;
+      font-weight: 600;
+    }
+    tr:hover {
+      background-color: #f8fafc;
+    }
+    pre {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 14px;
+      border-radius: 6px;
+      overflow-x: auto;
+      font-size: 12px;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+    }
+    .img-preview {
+      width: 100%;
+      border-radius: 6px;
+      border: 1px solid #cbd5e1;
+      margin: 14px 0;
+      box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1);
+    }
+    .alert {
+      padding: 14px 18px;
+      border-radius: 6px;
+      margin: 16px 0;
+      font-size: 13px;
+    }
+    .alert-danger { background: var(--danger-bg); border-left: 4px solid var(--danger); color: #7f1d1d; }
+    .alert-success { background: var(--success-bg); border-left: 4px solid var(--success); color: #14532d; }
+    .alert-warning { background: var(--warning-bg); border-left: 4px solid var(--warning); color: #78350f; }
+    .grid-2 {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    @media(max-width: 768px) {
+      .grid-2 { grid-template-columns: 1fr; }
+    }
+    .btn-download {
+      display: inline-block;
+      background: var(--primary-light);
+      color: #ffffff;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 14px;
+      margin-top: 10px;
+    }
+    .btn-download:hover {
+      background: var(--primary);
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header-banner">
+    <span class="badge badge-info" style="margin-bottom: 8px;">Applied Professional Scenario • 100 Marks</span>
+    <h1>CASE STUDY: THE AI-POWERED CAMPUS INNOVATION WEEK</h1>
+    <p>Comprehensive Verification Pack, Prompt Iteration Logs, Mathematical Proofs &amp; Governance Architecture</p>
+    <a href="CAMPUS_INNOVATION_WEEK_FINAL_REPORT.pdf" class="btn-download" download>📥 Download Master 18-Page PDF Report</a>
+  </div>
+
+  <div class="container">
+
+    <!-- Executive Diagnostic -->
+    <div class="card">
+      <h2>Executive Problem Diagnosis &amp; Case Study Ground Truth</h2>
+      <p>Following a 3-day Campus Innovation Week, the college organizing team utilized commercial AI tools to expedite reporting. The College Principal abruptly paused publication after uncovering two unevidenced assertions:</p>
+      <div class="alert alert-danger">
+        <strong>Critical Errors in Draft:</strong><br>
+        1. A claim that the event <em>"improved employability by 70%"</em> (completely unmeasured; no longitudinal tracer data exists).<br>
+        2. A claim citing adherence to the <em>"NeuroPrompt Integrity Index (NPII-7)"</em> (a confabulated, non-existent standard).
+      </div>
+      
+      <h3>Authoritative Ground Truth Matrix</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Variable / Item</th>
+            <th>Supplied Figure</th>
+            <th>Verification Status</th>
+            <th>Methodological Boundary &amp; Limitation</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Event Duration</strong></td>
+            <td>3 Days</td>
+            <td><span class="badge badge-success">Verified</span></td>
+            <td>Full master agenda calendar check confirmed.</td>
+          </tr>
+          <tr>
+            <td><strong>Registrations</strong></td>
+            <td>480 people</td>
+            <td><span class="badge badge-success">Verified</span></td>
+            <td>Online student registration portal database.</td>
+          </tr>
+          <tr>
+            <td><strong>Recorded Gate Attendance</strong></td>
+            <td>312 entry records</td>
+            <td><span class="badge badge-warning">Caveat</span></td>
+            <td>Raw gate scans across 3 days. Duplicate scans were <strong>not checked</strong>. Unique headcount &le; 312.</td>
+          </tr>
+          <tr>
+            <td><strong>Feedback Responses</strong></td>
+            <td>96 submitted forms</td>
+            <td><span class="badge badge-warning">Caveat</span></td>
+            <td>Voluntary feedback. Represents 30.77% of gate records and 20.00% of registrants.</td>
+          </tr>
+          <tr>
+            <td><strong>Average Satisfaction</strong></td>
+            <td>4.1 out of 5.0</td>
+            <td><span class="badge badge-warning">Bounded</span></td>
+            <td>Valid ONLY for the 96 respondents. Self-selection bias precludes generalisation to all 480 registrants.</td>
+          </tr>
+          <tr>
+            <td><strong>Approved Budget Ceiling</strong></td>
+            <td>₹1,20,000</td>
+            <td><span class="badge badge-success">Verified</span></td>
+            <td>Sanctioned institutional expenditure cap.</td>
+          </tr>
+          <tr>
+            <td><strong>Recorded Expenses</strong></td>
+            <td>₹1,08,500</td>
+            <td><span class="badge badge-success">Verified</span></td>
+            <td>Incurred expenditure; leaves a ₹11,500 budget balance.</td>
+          </tr>
+          <tr>
+            <td><strong>Confirmed Sponsor Transfer</strong></td>
+            <td>₹75,000</td>
+            <td><span class="badge badge-success">Verified</span></td>
+            <td>Verified bank NEFT credit advice; net college outlay is ₹33,500.</td>
+          </tr>
+          <tr>
+            <td><strong>Employability Outcomes</strong></td>
+            <td>None Supplied</td>
+            <td><span class="badge badge-danger">Fabrication</span></td>
+            <td>Zero survey data. Faculty Lead warned: <em>"Don't present it as a result."</em></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Challenge 1 -->
+    <div class="card">
+      <h2>Challenge 1: Tool Selection &amp; Task Diagnosis (Deliverable A)</h2>
+      <p>Mapping seven administrative tasks to primary tools, operational rationales, and required audit evidence:</p>
+      <table>
+        <thead>
+          <tr>
+            <th>Task Domain</th>
+            <th>Primary Tool</th>
+            <th>Operational Rationale</th>
+            <th>Limitations &amp; Inherent Risks</th>
+            <th>Required Audit Evidence</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Meeting-Note Cleanup</strong></td>
+            <td>Otter.ai</td>
+            <td>Audio diarization, speaker attribution, timestamping.</td>
+            <td>Transcribes oral rumors verbatim; cannot evaluate ground truth.</td>
+            <td>Synced audio timestamp, speaker edit diff.</td>
+          </tr>
+          <tr>
+            <td><strong>Source Verification</strong></td>
+            <td>Perplexity AI</td>
+            <td>Real-time retrieval-augmented LLM linking to primary URLs.</td>
+            <td>Can mirror circular AI web hallucinations if unconstrained.</td>
+            <td>Direct primary URLs, exact page numbers, DOIs.</td>
+          </tr>
+          <tr>
+            <td><strong>Spreadsheet Analysis</strong></td>
+            <td>Julius AI (Python)</td>
+            <td>Sandboxed Python code execution; deterministic algebra.</td>
+            <td>Garbage-in, garbage-out; cannot deduce duplication without code.</td>
+            <td>Executable Python log, pandas DataFrame trace.</td>
+          </tr>
+          <tr>
+            <td><strong>Presentation Design</strong></td>
+            <td>Gamma App</td>
+            <td>Translates structured narrative outlines into card layouts.</td>
+            <td>Auto-fills bullet points with corporate superlatives.</td>
+            <td>Exported slide deck, card change history.</td>
+          </tr>
+          <tr>
+            <td><strong>Professional Writing</strong></td>
+            <td>Jasper / Grammarly</td>
+            <td>Tone calibration for senior leadership vs students.</td>
+            <td>Smooths over gaps with authoritative confabulation.</td>
+            <td>Version-controlled drafts, clarity scores.</td>
+          </tr>
+          <tr>
+            <td><strong>SOP Documentation</strong></td>
+            <td>Scribe</td>
+            <td>Captures browser clicks to produce illustrated SOP guides.</td>
+            <td>Documents mechanics, not quality of human judgment.</td>
+            <td>Clickstream screenshots, signed SOP checklist.</td>
+          </tr>
+          <tr>
+            <td><strong>Approval Workflow</strong></td>
+            <td>Zapier Enterprise</td>
+            <td>Deterministic multi-role gates enforcing human approvals.</td>
+            <td>Pure trigger logic; cannot assess qualitative audit rigor.</td>
+            <td>Webhook execution logs, cryptographic sign-offs.</td>
+          </tr>
+        </tbody>
+      </table>
+      <img src="evidence_appendix/tool_otter_transcript.png" class="img-preview" alt="Otter.ai Meeting Transcript Cleanup">
+    </div>
+
+    <!-- Challenge 2 -->
+    <div class="card">
+      <h2>Challenge 2: Prompt Engineering &amp; Iteration Log (Deliverable B)</h2>
+      <p>Demonstration of Prompt V1 (Naive) vs. Prompt V2 (Structured with Role, Ground Truth, and [VERIFY] Protocol):</p>
+      <img src="evidence_appendix/prompt_iteration_comparison.png" class="img-preview" alt="Prompt Iteration Comparison">
+      
+      <div class="alert alert-success">
+        <strong>Why V2 Succeeded:</strong> Injected ground truth numbers eliminated priors; negative constraints (*"Never claim 70%"*) blocked buzzwords; mandatory <code>[VERIFY]</code> tagging protocol forced uncertainties into the open rather than guessing.
+      </div>
+    </div>
+
+    <!-- Challenge 3 -->
+    <div class="card">
+      <h2>Challenge 3: Hallucination Detective (Deliverable C)</h2>
+      <p>Forensic investigation of five potentially unreliable terms across global standards registries:</p>
+      <img src="evidence_appendix/tool_perplexity_factcheck.png" class="img-preview" alt="Perplexity Source Verification">
+      <table>
+        <thead>
+          <tr>
+            <th>Term / Claim</th>
+            <th>Audit Classification</th>
+            <th>Registries Searched</th>
+            <th>Final Decision</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>NeuroPrompt Integrity Index (NPII-7)</strong></td>
+            <td><span class="badge badge-danger">Likely Fabricated</span></td>
+            <td>ISO/IEC JTC 1/SC 42, IEEE, NIST AI RMF</td>
+            <td>Quarantine &amp; Strip. Student admitted copying from AI chat.</td>
+          </tr>
+          <tr>
+            <td><strong>Source Echo Bias</strong></td>
+            <td><span class="badge badge-warning">Ambiguous / Informal</span></td>
+            <td>Google Scholar, Stanford HAI reports</td>
+            <td>Reclassify as informal. Use 'Circular Retrieval Bias'.</td>
+          </tr>
+          <tr>
+            <td><strong>Contextual Veracity Loop (CVL-9)</strong></td>
+            <td><span class="badge badge-danger">Likely Fabricated</span></td>
+            <td>ACM Digital Library, NeurIPS, ICLR</td>
+            <td>Exclude from deck. Non-existent algorithmic jargon.</td>
+          </tr>
+          <tr>
+            <td><strong>AI Professional Output Integrity Act 2024</strong></td>
+            <td><span class="badge badge-danger">Contradicted / Fake</span></td>
+            <td>EUR-Lex, US Congress, India Gazette</td>
+            <td>Excise statutory citation. Replace with internal ethics policy.</td>
+          </tr>
+          <tr>
+            <td><strong>70% Employability Improvement</strong></td>
+            <td><span class="badge badge-danger">Unsupported Claim</span></td>
+            <td>Case Ground Truth &amp; Debrief Minutes</td>
+            <td>Hard rejection. Prominently feature under "What We Cannot Conclude".</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- Challenge 4 -->
+    <div class="card">
+      <h2>Challenge 4: Mathematical Calculations &amp; Python Audit (Deliverable D)</h2>
+      <img src="evidence_appendix/tool_julius_calculation.png" class="img-preview" alt="Julius AI Python Calculations">
+      <div class="grid-2">
+        <div class="alert alert-info">
+          <strong>1. Entry-to-Registration Ratio:</strong><br>
+          312 &divide; 480 &times; 100 = <strong>65.00%</strong><br>
+          <em>Caveat: Raw scans; unique turnout is strictly &le; 65.00%.</em>
+        </div>
+        <div class="alert alert-info">
+          <strong>2. Feedback-to-Entry Ratio:</strong><br>
+          96 &divide; 312 &times; 100 = <strong>30.77% (or 30.8%)</strong><br>
+          <em>Feedback to Total Registrations: 96 &divide; 480 &times; 100 = 20.00%.</em>
+        </div>
+        <div class="alert alert-info">
+          <strong>3. Budget Remaining:</strong><br>
+          ₹1,20,000 &minus; ₹1,08,500 = <strong>₹11,500 surplus</strong><br>
+          <em>Net College Outlay after ₹75k sponsor = ₹33,500.</em>
+        </div>
+        <div class="alert alert-info">
+          <strong>4. Budget Utilisation:</strong><br>
+          ₹1,08,500 &divide; ₹1,20,000 &times; 100 = <strong>90.42%</strong><br>
+          <em>Event concluded 9.58% under approved ceiling.</em>
+        </div>
+      </div>
+    </div>
+
+    <!-- Challenge 5 -->
+    <div class="card">
+      <h2>Challenge 5: Audience-Specific Output Pack (Deliverable E)</h2>
+      <div class="grid-2">
+        <div>
+          <h3>Principal's Executive Brief</h3>
+          <img src="evidence_appendix/output_principal_brief.png" class="img-preview" alt="Principal Brief Document">
+        </div>
+        <div>
+          <h3>Student Social Media Post</h3>
+          <img src="evidence_appendix/output_social_media.png" class="img-preview" alt="Student Social Media Post">
+        </div>
+      </div>
+      <h3>Five-Slide Presentation Outline (Gamma Preview)</h3>
+      <img src="evidence_appendix/output_presentation_deck.png" class="img-preview" alt="Gamma Presentation Deck">
+    </div>
+
+    <!-- Challenge 6 -->
+    <div class="card">
+      <h2>Challenge 6: Responsible AI Workflow &amp; Governance (Deliverable F)</h2>
+      <img src="evidence_appendix/workflow_zapier_pipeline.png" class="img-preview" alt="Zapier 9-Stage Governance Pipeline">
+      <div class="alert alert-warning">
+        <strong>The Air-Gap &amp; Hard Stop Protocol:</strong> Generative AI tools are physically air-gapped from CMS endpoints. Webhook release triggers require unanimous cryptographic sign-off from four human role accounts: Event Coordinator, Finance Representative, Faculty Reviewer, and Communications Lead.
+      </div>
+    </div>
+
+    <!-- Challenge 7 -->
+    <div class="card">
+      <h2>Challenge 7: The Unexpected Twist &amp; Escalation Memorandum</h2>
+      <img src="evidence_appendix/unexpected_twist_incident_memo.png" class="img-preview" alt="Unexpected Twist Escalation Memo">
+      <div class="alert alert-danger">
+        <strong>The Recency Fallacy:</strong> An unapproved spreadsheet uploaded 1 hour before publication listing sponsor funds as ₹57,000 (instead of ₹75,000) does not override signed bank credit advices and corporate MoUs. A recent timestamp lacks provenance, authorization, and audit validity.
+      </div>
+    </div>
+
+  </div>
+
+  <footer style="text-align: center; padding: 30px; color: var(--text-muted); font-size: 13px; border-top: 1px solid var(--border);">
+    Campus Innovation Week • AI Productivity &amp; Verification Team • Excelsior Institute of Technology &copy; 2026
+  </footer>
+
+</body>
+</html>

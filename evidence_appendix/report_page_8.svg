@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="1100" viewBox="0 0 850 1100">
+      <rect width="850" height="1100" fill="#ffffff"/>
+      <rect x="0" y="0" width="850" height="16" fill="#1e3a8a"/>
+      <text x="50" y="55" fill="#1e3a8a" font-family="sans-serif" font-size="16" font-weight="bold">CHALLENGE 7: THE UNEXPECTED TWIST &amp; ESCALATION MEMO (10 MARKS)</text>
+      <text x="50" y="75" fill="#64748b" font-family="sans-serif" font-size="11">Emergency Response at T-Minus 1 Hour: Sponsor Discrepancy (₹57k vs ₹75k) &amp; Phantom Citation</text>
+
+      <!-- Immediate Actions Box -->
+      <rect x="50" y="90" width="750" height="230" rx="4" fill="#fef2f2" stroke="#f87171"/>
+      <rect x="50" y="90" width="750" height="28" fill="#7f1d1d"/>
+      <text x="65" y="109" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">IMMEDIATE ACTIONS BEFORE PUBLICATION (T-MINUS 60 MINUTES)</text>
+
+      <text x="65" y="135" fill="#991b1b" font-family="sans-serif" font-size="10.5" font-weight="bold">1. Emergency Publication Freeze:</text>
+      <text x="65" y="152" fill="#334155" font-family="sans-serif" font-size="10">Trigger instant Zapier kill-switch to halt all automated social media pushes, print distribution, and principal delivery.</text>
+
+      <text x="65" y="175" fill="#991b1b" font-family="sans-serif" font-size="10.5" font-weight="bold">2. Establish Authoritative Sponsor Amount Without Guessing:</text>
+      <text x="65" y="192" fill="#334155" font-family="sans-serif" font-size="10">Do NOT average the figures (₹66,000) or guess. Perform immediate forensic reconciliation across 4 authoritative documents:</text>
+      <text x="80" y="209" fill="#334155" font-family="sans-serif" font-size="9.5">• <tspan font-weight="bold">Bank NEFT/RTGS Credit Scroll:</tspan> Inspect the college bank ledger to verify the exact rupee amount credited to college accounts.</text>
+      <text x="80" y="225" fill="#334155" font-family="sans-serif" font-size="9.5">• <tspan font-weight="bold">Signed Sponsor MoU / Agreement:</tspan> Check the legally binding contract executed with the corporate partner.</text>
+      <text x="80" y="241" fill="#334155" font-family="sans-serif" font-size="9.5">• <tspan font-weight="bold">Official Accounts Receipt Voucher:</tspan> Locate the signed receipt issued by the college Accounts Officer.</text>
+      <text x="80" y="257" fill="#334155" font-family="sans-serif" font-size="9.5">• Direct telephone confirmation with the corporate partner’s authorized financial signatory.</text>
+
+      <text x="65" y="282" fill="#991b1b" font-family="sans-serif" font-size="10.5" font-weight="bold">3. Treatment of the Unsupported Legal Claim &amp; Broken Citation:</text>
+      <text x="65" y="299" fill="#334155" font-family="sans-serif" font-size="10">Immediately excise the 'AI Professional Output Integrity Act 2024' from the slide deck. Strip the broken link entirely.</text>
+
+      <!-- Recency Fallacy Explanation Box -->
+      <rect x="50" y="335" width="750" height="150" rx="4" fill="#fffbeb" stroke="#fef08a"/>
+      <text x="65" y="360" fill="#92400e" font-family="sans-serif" font-size="11.5" font-weight="bold">WHY RECENCY ALONE DOES NOT PROVE A FILE IS CORRECT (THE RECENCY FALLACY)</text>
+      <text x="65" y="382" fill="#78350f" font-family="sans-serif" font-size="10">In institutional governance, <tspan font-weight="bold">provenance and authorization strictly supersede chronological timestamps</tspan>:</text>
+      <text x="65" y="400" fill="#78350f" font-family="sans-serif" font-size="9.5">• <tspan font-weight="bold">Unverified Draft Overwrite:</tspan> A spreadsheet uploaded 1 hour ago without author signature or date could be an exploratory scenario draft,</text>
+      <text x="80" y="415" fill="#78350f" font-family="sans-serif" font-size="9.5">a partial milestone instalment note, an unreviewed volunteer scratchpad, or a clerical typo (e.g. transposing ₹57,000 for ₹75,000).</text>
+      <text x="65" y="433" fill="#78350f" font-family="sans-serif" font-size="9.5">• <tspan font-weight="bold">Lack of Custody Chain:</tspan> The newly uploaded file lacks metadata, author identity, and approval signatures.</text>
+      <text x="65" y="451" fill="#78350f" font-family="sans-serif" font-size="9.5">• <tspan font-weight="bold">Legal &amp; Audit Precedence:</tspan> An older, signed bank credit advice and ratified MoU hold binding authority over an unauthenticated modern file.</text>
+
+      <!-- Formal Escalation Note to Event Coordinator -->
+      <rect x="50" y="500" width="750" height="520" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="500" width="750" height="28" fill="#1e293b"/>
+      <text x="65" y="519" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">FORMAL PRE-PUBLICATION ESCALATION MEMORANDUM</text>
+
+      <text x="65" y="545" fill="#334155" font-family="sans-serif" font-size="10"><tspan font-weight="bold">TO:</tspan> Event Coordinator  |  <tspan font-weight="bold">FROM:</tspan> AI Verification &amp; Productivity Lead  |  <tspan font-weight="bold">DATE:</tspan> 18 Nov 2026, 16:00 IST</text>
+      <text x="65" y="562" fill="#334155" font-family="sans-serif" font-size="10"><tspan font-weight="bold">SUBJECT:</tspan> CRITICAL PRE-PUBLICATION ESCALATION: SPONSOR DISCREPANCY &amp; LEGAL CITATION HALLUCINATION</text>
+      <line x1="65" y1="572" x2="785" y2="572" stroke="#cbd5e1"/>
+
+      <!-- Section A: Known Facts -->
+      <text x="65" y="595" fill="#16a34a" font-family="sans-serif" font-size="10.5" font-weight="bold">SECTION A: KNOWN &amp; AUTHORITATIVE FACTS</text>
+      <text x="65" y="613" fill="#334155" font-family="sans-serif" font-size="9.5">1. Campus Innovation Week completed its 3-day run with 480 registrants and 312 gate entry records.</text>
+      <text x="65" y="628" fill="#334155" font-family="sans-serif" font-size="9.5">2. Event incurred ₹1,08,500 in recorded operational expenses against an authorized budget cap of ₹1,20,000.</text>
+      <text x="65" y="643" fill="#334155" font-family="sans-serif" font-size="9.5">3. 96 voluntary survey forms submitted an average satisfaction rating of 4.1 / 5.0 stars.</text>
+      <text x="65" y="658" fill="#334155" font-family="sans-serif" font-size="9.5">4. The previously audited finance ledger recorded a confirmed sponsor transfer of ₹75,000 (net outlay ₹33,500).</text>
+
+      <!-- Section B: Conflicting Evidence -->
+      <text x="65" y="685" fill="#b91c1c" font-family="sans-serif" font-size="10.5" font-weight="bold">SECTION B: CONFLICTING &amp; CONTRADICTED EVIDENCE</text>
+      <text x="65" y="703" fill="#334155" font-family="sans-serif" font-size="9.5">1. <tspan font-weight="bold">Financial Conflict:</tspan> A spreadsheet uploaded 60 minutes ago lists sponsor contributions as ₹57,000 (an ₹18,000 shortfall).</text>
+      <text x="80" y="718" fill="#334155" font-family="sans-serif" font-size="9.5">The file contains no author name, date, or approval signature. Plausible typographical transposition (57 vs 75).</text>
+      <text x="65" y="735" fill="#334155" font-family="sans-serif" font-size="9.5">2. <tspan font-weight="bold">Legal Hallucination:</tspan> Slide 4 of the AI presentation draft cites the "AI Professional Output Integrity Act 2024" as a statutory mandate.</text>
+      <text x="80" y="750" fill="#334155" font-family="sans-serif" font-size="9.5">The citation URL resolves to an unrelated external webpage. Forensic legal check confirms this act does not exist in any jurisdiction.</text>
+
+      <!-- Section C: Decisions Required -->
+      <text x="65" y="778" fill="#0284c7" font-family="sans-serif" font-size="10.5" font-weight="bold">SECTION C: DECISIONS &amp; ACTIONS REQUIRED BEFORE PUBLICATION</text>
+      <text x="65" y="798" fill="#334155" font-family="sans-serif" font-size="9.5">1. <tspan font-weight="bold">Finance Sign-off Decision:</tspan> Finance Representative must immediately inspect the official college bank statement.</text>
+      <text x="80" y="813" fill="#334155" font-family="sans-serif" font-size="9.5">• If bank statement confirms ₹75,000 was credited: Mark the unapproved spreadsheet as INVALID and archive it.</text>
+      <text x="80" y="828" fill="#334155" font-family="sans-serif" font-size="9.5">• If bank statement reveals only ₹57,000 was received: Revise net college outlay to ₹51,500 and update executive brief.</text>
+      <text x="65" y="848" fill="#334155" font-family="sans-serif" font-size="9.5">2. <tspan font-weight="bold">Slide Deck Sanitization:</tspan> Authorize immediate excision of the fictional legal act; replace with internal institutional AI ethics policy.</text>
+      <text x="65" y="868" fill="#334155" font-family="sans-serif" font-size="9.5">3. <tspan font-weight="bold">Partial Release Clearance:</tspan> Clear the student-facing social media post for publication (which contains zero financial data),</text>
+      <text x="80" y="883" fill="#334155" font-family="sans-serif" font-size="9.5">while maintaining the freeze on the Principal’s brief and presentation deck until financial reconciliation is signed.</text>
+
+      <rect x="65" y="905" width="720" height="95" rx="4" fill="#0f172a"/>
+      <text x="75" y="925" fill="#38bdf8" font-family="sans-serif" font-size="10.5" font-weight="bold">ESCALATION SIGN-OFF GATE:</text>
+      <text x="75" y="945" fill="#ffffff" font-family="sans-serif" font-size="9.5">Prepared by: AI Verification &amp; Productivity Team  |  Status: Hard Freeze Active (T-Minus 60 Min)</text>
+      <text x="75" y="965" fill="#a7f3d0" font-family="sans-serif" font-size="9.5">Pending Action: Event Coordinator &amp; Finance Rep Concurrence on Bank Scroll.</text>
+      <text x="75" y="985" fill="#fca5a5" font-family="sans-serif" font-size="9.5">Outcome: Zero unverified data released to Principal or Public.</text>
+
+      <text x="50" y="1060" fill="#94a3b8" font-family="sans-serif" font-size="10">Page 8 of 8 • Campus Innovation Week Verification Report</text>
+    </svg>

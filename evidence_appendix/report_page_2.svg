@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="1100" viewBox="0 0 850 1100">
+      <rect width="850" height="1100" fill="#ffffff"/>
+      <rect x="0" y="0" width="850" height="16" fill="#1e3a8a"/>
+      <text x="50" y="55" fill="#1e3a8a" font-family="sans-serif" font-size="16" font-weight="bold">DELIVERABLE A: TOOL-SELECTION MATRIX &amp; TASK DIAGNOSIS (10 MARKS)</text>
+      <text x="50" y="75" fill="#64748b" font-family="sans-serif" font-size="11">Evaluation of AI Tool Fit, Operational Rationales, Evidence Produced, and Task Boundaries</text>
+
+      <!-- Matrix Table -->
+      <rect x="50" y="90" width="750" height="520" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="90" width="750" height="30" fill="#1e293b"/>
+      <text x="60" y="110" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">TASK DOMAIN</text>
+      <text x="175" y="110" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">PRIMARY TOOL</text>
+      <text x="275" y="110" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">OPERATIONAL RATIONALE</text>
+      <text x="495" y="110" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">LIMITATION &amp; RISKS</text>
+      <text x="670" y="110" fill="#ffffff" font-family="sans-serif" font-size="10" font-weight="bold">REQUIRED EVIDENCE</text>
+
+      <!-- Row 1: Meeting Notes -->
+      <text x="60" y="140" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">Meeting Note Cleanup</text>
+      <text x="175" y="140" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Otter.ai</text>
+      <text x="275" y="135" fill="#334155" font-family="sans-serif" font-size="8.5">Automated transcription, diarization of</text>
+      <text x="275" y="147" fill="#334155" font-family="sans-serif" font-size="8.5">4 speakers, and audio-synced text.</text>
+      <text x="495" y="135" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Transcribes hearsay verbatim;</text>
+      <text x="495" y="147" fill="#b91c1c" font-family="sans-serif" font-size="8.5">cannot assess factual validity.</text>
+      <text x="670" y="135" fill="#16a34a" font-family="sans-serif" font-size="8.5">Timestamped audio,</text>
+      <text x="670" y="147" fill="#16a34a" font-family="sans-serif" font-size="8.5">speaker diff log.</text>
+      <line x1="50" y1="160" x2="800" y2="160" stroke="#e2e8f0"/>
+
+      <!-- Row 2: Source Verification -->
+      <text x="60" y="185" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">Source Verification</text>
+      <text x="175" y="185" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Perplexity AI</text>
+      <text x="275" y="180" fill="#334155" font-family="sans-serif" font-size="8.5">Real-time retrieval-augmented LLM</text>
+      <text x="275" y="192" fill="#334155" font-family="sans-serif" font-size="8.5">with direct primary URL linking.</text>
+      <text x="495" y="180" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Search index bias; circular AI</text>
+      <text x="495" y="192" fill="#b91c1c" font-family="sans-serif" font-size="8.5">blogs can mirror hallucinations.</text>
+      <text x="670" y="180" fill="#16a34a" font-family="sans-serif" font-size="8.5">Direct primary URLs,</text>
+      <text x="670" y="192" fill="#16a34a" font-family="sans-serif" font-size="8.5">verbatim quote checks.</text>
+      <line x1="50" y1="205" x2="800" y2="205" stroke="#e2e8f0"/>
+
+      <!-- Row 3: Spreadsheet Analysis -->
+      <text x="60" y="230" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">Spreadsheet Analysis</text>
+      <text x="175" y="230" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Julius AI (Python)</text>
+      <text x="275" y="225" fill="#334155" font-family="sans-serif" font-size="8.5">Sandboxed Python/pandas code execution;</text>
+      <text x="275" y="237" fill="#334155" font-family="sans-serif" font-size="8.5">exact arithmetic without token drift.</text>
+      <text x="495" y="225" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Garbage in, garbage out; cannot</text>
+      <text x="495" y="237" fill="#b91c1c" font-family="sans-serif" font-size="8.5">detect duplicated scan logs alone.</text>
+      <text x="670" y="225" fill="#16a34a" font-family="sans-serif" font-size="8.5">Executable Python log,</text>
+      <text x="670" y="237" fill="#16a34a" font-family="sans-serif" font-size="8.5">dataframe summary.</text>
+      <line x1="50" y1="250" x2="800" y2="250" stroke="#e2e8f0"/>
+
+      <!-- Row 4: Presentation Design -->
+      <text x="60" y="275" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">Presentation Design</text>
+      <text x="175" y="275" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Gamma App</text>
+      <text x="275" y="270" fill="#334155" font-family="sans-serif" font-size="8.5">Rapid AI visual slide generation from</text>
+      <text x="275" y="282" fill="#334155" font-family="sans-serif" font-size="8.5">grounded text outlines.</text>
+      <text x="495" y="270" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Auto-fills bullet points with unverified</text>
+      <text x="495" y="282" fill="#b91c1c" font-family="sans-serif" font-size="8.5">marketing superlatives if uncurated.</text>
+      <text x="670" y="270" fill="#16a34a" font-family="sans-serif" font-size="8.5">Exported 5-slide deck,</text>
+      <text x="670" y="282" fill="#16a34a" font-family="sans-serif" font-size="8.5">card revision diffs.</text>
+      <line x1="50" y1="295" x2="800" y2="295" stroke="#e2e8f0"/>
+
+      <!-- Row 5: Professional Writing -->
+      <text x="60" y="320" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">Professional Writing</text>
+      <text x="175" y="320" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Jasper / Grammarly</text>
+      <text x="275" y="315" fill="#334155" font-family="sans-serif" font-size="8.5">Executive briefing formatting, tone tuning</text>
+      <text x="275" y="327" fill="#334155" font-family="sans-serif" font-size="8.5">for Principal vs. Student audiences.</text>
+      <text x="495" y="315" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Smooths over knowledge gaps,</text>
+      <text x="495" y="327" fill="#b91c1c" font-family="sans-serif" font-size="8.5">creating plausible-sounding fiction.</text>
+      <text x="670" y="315" fill="#16a34a" font-family="sans-serif" font-size="8.5">Versioned drafts,</text>
+      <text x="670" y="327" fill="#16a34a" font-family="sans-serif" font-size="8.5">tone audit scores.</text>
+      <line x1="50" y1="340" x2="800" y2="340" stroke="#e2e8f0"/>
+
+      <!-- Row 6: SOP Documentation -->
+      <text x="60" y="365" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">SOP Documentation</text>
+      <text x="175" y="365" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Scribe</text>
+      <text x="275" y="360" fill="#334155" font-family="sans-serif" font-size="8.5">Auto-captures browser clicks to produce</text>
+      <text x="275" y="372" fill="#334155" font-family="sans-serif" font-size="8.5">illustrated procedural guides.</text>
+      <text x="495" y="360" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Documents procedural mechanics,</text>
+      <text x="495" y="372" fill="#b91c1c" font-family="sans-serif" font-size="8.5">not quality of human judgment.</text>
+      <text x="670" y="360" fill="#16a34a" font-family="sans-serif" font-size="8.5">Step-by-step logs,</text>
+      <text x="670" y="372" fill="#16a34a" font-family="sans-serif" font-size="8.5">annotated screenshots.</text>
+      <line x1="50" y1="385" x2="800" y2="385" stroke="#e2e8f0"/>
+
+      <!-- Row 7: Approval Workflow -->
+      <text x="60" y="410" fill="#0f172a" font-family="sans-serif" font-size="9.5" font-weight="bold">Approval Workflow</text>
+      <text x="175" y="410" fill="#0284c7" font-family="sans-serif" font-size="9.5" font-weight="bold">Zapier</text>
+      <text x="275" y="405" fill="#334155" font-family="sans-serif" font-size="8.5">Automates deterministic gates routing drafts</text>
+      <text x="275" y="417" fill="#334155" font-family="sans-serif" font-size="8.5">to human role owners before release.</text>
+      <text x="495" y="405" fill="#b91c1c" font-family="sans-serif" font-size="8.5">Pure trigger logic; cannot assess if</text>
+      <text x="495" y="417" fill="#b91c1c" font-family="sans-serif" font-size="8.5">human performed thorough audit.</text>
+      <text x="670" y="405" fill="#16a34a" font-family="sans-serif" font-size="8.5">Webhook execution logs,</text>
+      <text x="670" y="417" fill="#16a34a" font-family="sans-serif" font-size="8.5">digital sign-off ledger.</text>
+
+      <!-- Sub-task: General-purpose chatbot limitations -->
+      <rect x="50" y="630" width="750" height="180" rx="4" fill="#eff6ff" stroke="#bfdbfe"/>
+      <text x="65" y="655" fill="#1e3a8a" font-family="sans-serif" font-size="12" font-weight="bold">TASKS WHERE A GENERAL-PURPOSE CHATBOT ALONE IS INSUFFICIENT</text>
+      <text x="65" y="680" fill="#1e293b" font-family="sans-serif" font-size="10.5">1. <tspan font-weight="bold">Spreadsheet Analysis &amp; Numerical Verification:</tspan> General-purpose LLMs predict the most probable next token rather than</text>
+      <text x="80" y="698" fill="#334155" font-family="sans-serif" font-size="10">executing formal algebraic proofs. In tabular reasoning, LLMs frequently experience token drift, hallucinate arithmetic operations,</text>
+      <text x="80" y="715" fill="#334155" font-family="sans-serif" font-size="10">or miss subtle data relationships (e.g., confusing gross budget with net outlay). A deterministic, code-executing interpreter</text>
+      <text x="80" y="732" fill="#334155" font-family="sans-serif" font-size="10">(such as Julius AI running Python/pandas) is mandatory to guarantee zero calculation error.</text>
+
+      <text x="65" y="757" fill="#1e293b" font-family="sans-serif" font-size="10.5">2. <tspan font-weight="bold">Approval Workflow Orchestration &amp; Gatekeeping:</tspan> A conversational chatbot cannot enforce organizational access controls,</text>
+      <text x="80" y="775" fill="#334155" font-family="sans-serif" font-size="10">maintain immutable state across multi-department sign-offs, or block public publishing webhooks. Dedicated workflow automation</text>
+      <text x="80" y="792" fill="#334155" font-family="sans-serif" font-size="10">(Zapier) is strictly required to air-gap draft creation from publication channels.</text>
+
+      <!-- Sub-task: Privacy & Access Risk Assessment -->
+      <rect x="50" y="830" width="750" height="210" rx="4" fill="#fef2f2" stroke="#fecaca"/>
+      <text x="65" y="855" fill="#991b1b" font-family="sans-serif" font-size="12" font-weight="bold">PRIVACY &amp; ACCESS RISK ANALYSIS (BEFORE EXTERNAL AI UPLOAD)</text>
+      <text x="65" y="880" fill="#7f1d1d" font-family="sans-serif" font-size="10.5" font-weight="bold">Identified Risk: Exposure of Personally Identifiable Information (PII) &amp; Financial Ledger Records</text>
+      <text x="65" y="902" fill="#334155" font-family="sans-serif" font-size="10">Uploading raw event spreadsheets containing student names, college roll numbers, email addresses, phone numbers, or unredacted bank</text>
+      <text x="65" y="919" fill="#334155" font-family="sans-serif" font-size="10">NEFT transfer receipts to commercial consumer AI endpoints (e.g., standard ChatGPT or public cloud tools) creates severe compliance violations</text>
+      <text x="65" y="936" fill="#334155" font-family="sans-serif" font-size="10">under India’s Digital Personal Data Protection Act (DPDP Act 2023) and global standards (GDPR):</text>
+      <text x="80" y="958" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Data Ingestion Threat:</tspan> Consumer AI terms of service often permit training on submitted user prompts, permanently embedding student data.</text>
+      <text x="80" y="975" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Mandatory Mitigation Protocol:</tspan> Prior to ingestion, all datasets must pass through an air-gapped local sanitization script</text>
+      <text x="80" y="992" fill="#334155" font-family="sans-serif" font-size="10">that strips direct identifiers, substitutes synthetic pseudonyms, and truncates financial account numbers to terminal digits.</text>
+      <text x="80" y="1009" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Enterprise Tier Requirement:</tspan> Only enterprise zero-data-retention (ZDR) APIs with signed SOC2/ISO27001 data processing agreements may be used.</text>
+
+      <text x="50" y="1060" fill="#94a3b8" font-family="sans-serif" font-size="10">Page 2 of 8 • Campus Innovation Week Verification Report</text>
+    </svg>

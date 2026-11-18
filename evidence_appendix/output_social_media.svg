@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+      <rect width="1000" height="620" rx="12" fill="#0f172a"/>
+      <!-- Header -->
+      <rect x="0" y="0" width="1000" height="50" rx="12" fill="#1e293b"/>
+      <circle cx="25" cy="25" r="6" fill="#ef4444"/>
+      <circle cx="45" cy="25" r="6" fill="#f59e0b"/>
+      <circle cx="65" cy="25" r="6" fill="#10b981"/>
+      <text x="100" y="31" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">Campus Social Feed Mockup — Student-Facing Verified Post (LinkedIn / Instagram / X)</text>
+      <rect x="850" y="12" width="125" height="26" rx="6" fill="#0284c7"/>
+      <text x="870" y="29" fill="#ffffff" font-family="sans-serif" font-size="12" font-weight="bold">PUBLIC POST</text>
+
+      <!-- Center Post Container -->
+      <rect x="220" y="70" width="560" height="525" rx="10" fill="#ffffff" filter="url(#shadow)"/>
+      
+      <!-- Post Author Info -->
+      <circle cx="260" cy="110" r="22" fill="#1e3a8a"/>
+      <text x="252" y="116" fill="#ffffff" font-family="sans-serif" font-size="16" font-weight="bold">EI</text>
+      <text x="295" y="105" fill="#0f172a" font-family="sans-serif" font-size="14" font-weight="bold">Excelsior Institute of Technology</text>
+      <text x="295" y="122" fill="#64748b" font-family="sans-serif" font-size="11">Official Student Innovation Council • Just now • 🌍</text>
+
+      <!-- Post Body Text -->
+      <text x="250" y="155" fill="#1e293b" font-family="sans-serif" font-size="13">🚀 <tspan font-weight="bold">That’s a wrap on Campus Innovation Week!</tspan></text>
+      <text x="250" y="178" fill="#334155" font-family="sans-serif" font-size="12">Over 3 intense days of hands-on workshops, ideathons, and tech sprints,</text>
+      <text x="250" y="196" fill="#334155" font-family="sans-serif" font-size="12">our student builders brought incredible energy and visionary ideas to life!</text>
+
+      <text x="250" y="225" fill="#1e293b" font-family="sans-serif" font-size="12" font-weight="bold">Here is what our community accomplished together:</text>
+      <text x="250" y="245" fill="#0284c7" font-family="sans-serif" font-size="12">⚡ <tspan font-weight="bold">480 Students</tspan> registered to level up in frontier AI tools</text>
+      <text x="250" y="265" fill="#0284c7" font-family="sans-serif" font-size="12">⚡ <tspan font-weight="bold">312 Recorded Workshop Sessions</tspan> across three packed tracks</text>
+      <text x="250" y="285" fill="#0284c7" font-family="sans-serif" font-size="12">⚡ <tspan font-weight="bold">4.1 / 5.0 Star Rating</tspan> from student feedback submissions!</text>
+
+      <text x="250" y="315" fill="#334155" font-family="sans-serif" font-size="12">Huge gratitude to our faculty mentors, student organizers, and our generous</text>
+      <text x="250" y="333" fill="#334155" font-family="sans-serif" font-size="12">industry partners for making this week possible.</text>
+
+      <text x="250" y="360" fill="#0284c7" font-family="sans-serif" font-size="11">#CampusInnovation #TechWeek #StudentInnovators #AIProductivity #HandsOnLearning</text>
+
+      <!-- Visual Card in Post -->
+      <rect x="250" y="375" width="500" height="150" rx="8" fill="#0f172a"/>
+      <rect x="265" y="390" width="470" height="120" rx="6" fill="#1e293b"/>
+      <text x="285" y="420" fill="#38bdf8" font-family="sans-serif" font-size="16" font-weight="bold">CAMPUS INNOVATION WEEK 2026</text>
+      <text x="285" y="445" fill="#f8fafc" font-family="sans-serif" font-size="12">3 Days • 480 Innovators • 4.1/5 Satisfaction</text>
+      <rect x="285" y="465" width="180" height="28" rx="4" fill="#3b82f6"/>
+      <text x="300" y="483" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">Explore Project Gallery →</text>
+
+      <!-- Post Interaction Bar -->
+      <line x1="250" y1="540" x2="750" y2="540" stroke="#e2e8f0" stroke-width="1"/>
+      <text x="260" y="565" fill="#64748b" font-family="sans-serif" font-size="12">👍 142 Likes   •   💬 28 Comments   •   ↗ 34 Reposts</text>
+      <text x="640" y="565" fill="#16a34a" font-family="sans-serif" font-size="11" font-weight="bold">✓ 100% Verified Facts</text>
+    </svg>

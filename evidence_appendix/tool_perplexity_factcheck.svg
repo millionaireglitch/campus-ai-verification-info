@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="620" viewBox="0 0 1000 620">
+      <rect width="1000" height="620" rx="12" fill="#090d16"/>
+      <!-- Header -->
+      <rect x="0" y="0" width="1000" height="50" rx="12" fill="#131b2e"/>
+      <circle cx="25" cy="25" r="6" fill="#ef4444"/>
+      <circle cx="45" cy="25" r="6" fill="#f59e0b"/>
+      <circle cx="65" cy="25" r="6" fill="#10b981"/>
+      <text x="100" y="31" fill="#38bdf8" font-family="sans-serif" font-size="14" font-weight="bold">Perplexity Pro — Multi-Engine Deep Source Verification &amp; Hallucination Audit</text>
+
+      <!-- Query Box -->
+      <rect x="30" y="70" width="940" height="65" rx="8" fill="#1e293b" stroke="#334155"/>
+      <text x="50" y="95" fill="#94a3b8" font-family="sans-serif" font-size="11" font-weight="bold">PROMPT / INVESTIGATION QUERY</text>
+      <text x="50" y="118" fill="#f8fafc" font-family="monospace" font-size="13">"NeuroPrompt Integrity Index (NPII-7)" OR "Contextual Veracity Loop (CVL-9)" standards IEEE ISO NIST</text>
+
+      <!-- Search Sources Bar -->
+      <rect x="30" y="150" width="940" height="60" rx="6" fill="#131b2e"/>
+      <text x="45" y="172" fill="#64748b" font-family="sans-serif" font-size="11" font-weight="bold">CROSS-INDEX SEARCH RUN (14,280 Sources Scanned):</text>
+      <rect x="45" y="180" width="130" height="22" rx="4" fill="#1e293b"/>
+      <text x="55" y="195" fill="#38bdf8" font-family="sans-serif" font-size="11">standards.ieee.org (0)</text>
+      <rect x="185" y="180" width="130" height="22" rx="4" fill="#1e293b"/>
+      <text x="195" y="195" fill="#38bdf8" font-family="sans-serif" font-size="11">iso.org/tc/sc42 (0)</text>
+      <rect x="325" y="180" width="130" height="22" rx="4" fill="#1e293b"/>
+      <text x="335" y="195" fill="#38bdf8" font-family="sans-serif" font-size="11">nist.gov/airmf (0)</text>
+      <rect x="465" y="180" width="130" height="22" rx="4" fill="#1e293b"/>
+      <text x="475" y="195" fill="#38bdf8" font-family="sans-serif" font-size="11">arxiv.org/cs (0)</text>
+      <rect x="605" y="180" width="150" height="22" rx="4" fill="#7f1d1d"/>
+      <text x="615" y="195" fill="#fecaca" font-family="sans-serif" font-size="11">Zero Authoritative Hits</text>
+
+      <!-- Result Card -->
+      <rect x="30" y="225" width="940" height="365" rx="8" fill="#1e293b"/>
+      
+      <!-- Verdict Badge -->
+      <rect x="50" y="245" width="280" height="30" rx="6" fill="#ef4444" fill-opacity="0.2" stroke="#ef4444"/>
+      <text x="65" y="265" fill="#ef4444" font-family="sans-serif" font-size="13" font-weight="bold">AUDIT VERDICT: LIKELY FABRICATED</text>
+
+      <text x="50" y="305" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Detailed Fact-Check &amp; Forensic Analysis:</text>
+      
+      <text x="50" y="335" fill="#cbd5e1" font-family="sans-serif" font-size="13">1. <tspan fill="#ffffff" font-weight="bold">NeuroPrompt Integrity Index (NPII-7):</tspan> Not verified in any authoritative source. Exhaustive searches across ISO/IEC JTC 1/SC 42,</text>
+      <text x="50" y="355" fill="#cbd5e1" font-family="sans-serif" font-size="13">   IEEE AI Standards Committee, and NIST AI Risk Management Framework reveal zero formal specifications or draft working groups.</text>
+      
+      <text x="50" y="385" fill="#cbd5e1" font-family="sans-serif" font-size="13">2. <tspan fill="#ffffff" font-weight="bold">Contextual Veracity Loop (CVL-9):</tspan> Likely fabricated. Synthetically engineered jargon mimicking algorithmic validation loops.</text>
+      <text x="50" y="405" fill="#cbd5e1" font-family="sans-serif" font-size="13">   No peer-reviewed papers on Google Scholar, ACM DL, or arXiv describe any methodology by this exact moniker.</text>
+
+      <text x="50" y="435" fill="#cbd5e1" font-family="sans-serif" font-size="13">3. <tspan fill="#ffffff" font-weight="bold">AI Professional Output Integrity Act 2024:</tspan> Contradicted / Non-existent statute. Checking official gazettes across EU, US, UK, and</text>
+      <text x="50" y="455" fill="#cbd5e1" font-family="sans-serif" font-size="13">   India (DPDP Act 2023) confirms no legislation exists under this title. The link attached in the student slide resolves to a generic domain.</text>
+
+      <rect x="50" y="480" width="900" height="85" rx="6" fill="#0f172a" stroke="#334155"/>
+      <text x="65" y="505" fill="#38bdf8" font-family="sans-serif" font-size="12" font-weight="bold">Cross-Verification with Secondary Challenger AI (Claude 3.5 / Perplexity Consensus):</text>
+      <text x="65" y="525" fill="#94a3b8" font-family="sans-serif" font-size="12">Challenger AI agreement: 100%. Both models confirm that NPII-7 and CVL-9 are typical hallucinations generated when an LLM is</text>
+      <text x="65" y="543" fill="#94a3b8" font-family="sans-serif" font-size="12">asked to validate output integrity without strict temperature dampening and negative grounding constraints.</text>
+    </svg>

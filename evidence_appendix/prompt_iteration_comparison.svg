@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="640" viewBox="0 0 1000 640">
+      <rect width="1000" height="640" rx="12" fill="#0f172a"/>
+      <!-- Header -->
+      <rect x="0" y="0" width="1000" height="50" rx="12" fill="#1e293b"/>
+      <circle cx="25" cy="25" r="6" fill="#ef4444"/>
+      <circle cx="45" cy="25" r="6" fill="#f59e0b"/>
+      <circle cx="65" cy="25" r="6" fill="#10b981"/>
+      <text x="100" y="31" fill="#f8fafc" font-family="sans-serif" font-size="14" font-weight="bold">Challenge 2: Prompt Engineering &amp; Iteration Log — Before vs. After Comparative Matrix</text>
+
+      <!-- Left Column: Naive Weak Prompt &amp; Hallucinated Output -->
+      <rect x="25" y="70" width="465" height="545" rx="8" fill="#1e293b" stroke="#7f1d1d"/>
+      <rect x="25" y="70" width="465" height="35" rx="8" fill="#7f1d1d"/>
+      <text x="40" y="93" fill="#fecaca" font-family="sans-serif" font-size="13" font-weight="bold">V1: NAIVE UNCONSTRAINED PROMPT (FAILED)</text>
+
+      <rect x="35" y="115" width="445" height="85" rx="6" fill="#0f172a"/>
+      <text x="45" y="135" fill="#ef4444" font-family="monospace" font-size="11" font-weight="bold">User Prompt V1:</text>
+      <text x="45" y="155" fill="#cbd5e1" font-family="monospace" font-size="11">"Write a one-page brief for our principal about</text>
+      <text x="45" y="170" fill="#cbd5e1" font-family="monospace" font-size="11">our Campus Innovation Week. Make it sound exciting</text>
+      <text x="45" y="185" fill="#cbd5e1" font-family="monospace" font-size="11">and mention how it helps student careers and standards."</text>
+
+      <rect x="35" y="215" width="445" height="230" rx="6" fill="#2d1212" stroke="#b91c1c"/>
+      <text x="45" y="235" fill="#fca5a5" font-family="sans-serif" font-size="12" font-weight="bold">AI Output V1 (Severe Hallucinations):</text>
+      <text x="45" y="260" fill="#fecaca" font-family="sans-serif" font-size="11">"Campus Innovation Week was a roaring triumph! Over 500</text>
+      <text x="45" y="278" fill="#fecaca" font-family="sans-serif" font-size="11">students flocked to the campus, achieving an unprecedented</text>
+      <text x="45" y="296" fill="#ef4444" font-family="sans-serif" font-size="11" font-weight="bold">• 70% employability boost across all attendees [FABRICATION]</text>
+      <text x="45" y="314" fill="#fecaca" font-family="sans-serif" font-size="11">• Certified under the world-renowned</text>
+      <text x="45" y="332" fill="#ef4444" font-family="sans-serif" font-size="11" font-weight="bold">  NeuroPrompt Integrity Index (NPII-7) [PHANTOM STANDARD]</text>
+      <text x="45" y="350" fill="#fecaca" font-family="sans-serif" font-size="11">• Fully compliant with the AI Output Integrity Act 2024</text>
+      <text x="45" y="368" fill="#fecaca" font-family="sans-serif" font-size="11">• 100% student satisfaction reported with zero budget leaks!"</text>
+      <text x="45" y="395" fill="#fca5a5" font-family="sans-serif" font-size="11">Fatal Flaw: Confabulated numbers, invented regulatory laws,</text>
+      <text x="45" y="412" fill="#fca5a5" font-family="sans-serif" font-size="11">ignored duplicate scans, and claimed unmeasured career results.</text>
+
+      <rect x="35" y="460" width="445" height="135" rx="6" fill="#0f172a"/>
+      <text x="45" y="482" fill="#ef4444" font-family="sans-serif" font-size="12" font-weight="bold">Diagnosed Failures:</text>
+      <text x="45" y="502" fill="#94a3b8" font-family="sans-serif" font-size="11">1. No Role or audience boundaries specified.</text>
+      <text x="45" y="520" fill="#94a3b8" font-family="sans-serif" font-size="11">2. No Ground Truth data provided; model used generic priors.</text>
+      <text x="45" y="538" fill="#94a3b8" font-family="sans-serif" font-size="11">3. Lacked Negative Constraints ("Do not invent").</text>
+      <text x="45" y="556" fill="#94a3b8" font-family="sans-serif" font-size="11">4. Missing Mandatory Uncertainty Tagging ([VERIFY]).</text>
+
+      <!-- Right Column: Engineered Iterated Prompt &amp; Verified Output -->
+      <rect x="505" y="70" width="470" height="545" rx="8" fill="#1e293b" stroke="#059669"/>
+      <rect x="505" y="70" width="470" height="35" rx="8" fill="#065f46"/>
+      <text x="520" y="93" fill="#a7f3d0" font-family="sans-serif" font-size="13" font-weight="bold">V2: STRUCTURED PROMPT WITH [VERIFY] PROTOCOL (PASSED)</text>
+
+      <rect x="515" y="115" width="450" height="175" rx="6" fill="#0f172a"/>
+      <text x="525" y="133" fill="#34d399" font-family="monospace" font-size="11" font-weight="bold">Engineered Prompt V2 (Labeled Schema):</text>
+      <text x="525" y="150" fill="#a7f3d0" font-family="monospace" font-size="10"><tspan fill="#38bdf8">[ROLE]</tspan> Collegiate AI Productivity &amp; Verification Lead.</text>
+      <text x="525" y="165" fill="#a7f3d0" font-family="monospace" font-size="10"><tspan fill="#38bdf8">[CONTEXT]</tspan> Ground Truth: 480 registered, 312 entry scans (uncleaned),</text>
+      <text x="525" y="180" fill="#a7f3d0" font-family="monospace" font-size="10">96 feedback (4.1/5 avg), Budget: ₹1.2L approved, ₹1.085L spend, ₹75k sponsor.</text>
+      <text x="525" y="195" fill="#a7f3d0" font-family="monospace" font-size="10"><tspan fill="#38bdf8">[TASK]</tspan> Draft 1-page executive brief for Principal.</text>
+      <text x="525" y="210" fill="#a7f3d0" font-family="monospace" font-size="10"><tspan fill="#38bdf8">[CONSTRAINTS]</tspan> 1) Zero hallucinations. 2) Never claim 70% employability.</text>
+      <text x="525" y="225" fill="#a7f3d0" font-family="monospace" font-size="10">3) Do not cite NPII-7 or CVL-9. 4) Mark any uncertain point as [VERIFY].</text>
+      <text x="525" y="240" fill="#a7f3d0" font-family="monospace" font-size="10"><tspan fill="#38bdf8">[OUTPUT]</tspan> Formatted with Executive Summary, Table, Limitations, Actions.</text>
+
+      <rect x="515" y="300" width="450" height="195" rx="6" fill="#064e3b" fill-opacity="0.25" stroke="#10b981"/>
+      <text x="525" y="320" fill="#6ee7b7" font-family="sans-serif" font-size="12" font-weight="bold">AI Output V2 (Grounded &amp; Auditable):</text>
+      <text x="525" y="342" fill="#e2e8f0" font-family="sans-serif" font-size="11">"Executive Brief: Campus Innovation Week (3-Day Event)</text>
+      <text x="525" y="360" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Attendance: 312 gate entries recorded against 480 registrations</text>
+      <text x="525" y="378" fill="#e2e8f0" font-family="sans-serif" font-size="11">  (65.0% ratio). <tspan fill="#fbbf24">[VERIFY: Duplicate scan deduplication pending]</tspan></text>
+      <text x="525" y="396" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Budget: ₹1,08,500 expenses on ₹1,20,000 budget (90.42% util).</text>
+      <text x="525" y="414" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Net College Cost: ₹33,500 after confirmed ₹75,000 sponsor transfer.</text>
+      <text x="525" y="432" fill="#e2e8f0" font-family="sans-serif" font-size="11">• Feedback: 4.1/5 across 96 voluntary responses (30.77% of attendees).</text>
+      <text x="525" y="450" fill="#e2e8f0" font-family="sans-serif" font-size="11">• <tspan fill="#34d399" font-weight="bold">What We Cannot Conclude:</tspan> Employability outcomes are unmeasured;</text>
+      <text x="525" y="468" fill="#e2e8f0" font-family="sans-serif" font-size="11">  the 70% claim is strictly excluded as unsupported hearsay."</text>
+
+      <rect x="515" y="510" width="450" height="85" rx="6" fill="#0f172a"/>
+      <text x="525" y="530" fill="#34d399" font-family="sans-serif" font-size="12" font-weight="bold">Why V2 Succeeded:</text>
+      <text x="525" y="550" fill="#94a3b8" font-family="sans-serif" font-size="11">The [VERIFY] rule eliminated guessing, while negative grounding</text>
+      <text x="525" y="567" fill="#94a3b8" font-family="sans-serif" font-size="11">blocked buzzwords. Intermediate mathematical facts are 100% trace-auditable.</text>
+    </svg>

@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="850" height="1100" viewBox="0 0 850 1100">
+      <rect width="850" height="1100" fill="#ffffff"/>
+      <rect x="0" y="0" width="850" height="16" fill="#1e3a8a"/>
+      <text x="50" y="55" fill="#1e3a8a" font-family="sans-serif" font-size="16" font-weight="bold">DELIVERABLE B: PROMPT ENGINEERING &amp; ITERATION LOG (15 MARKS)</text>
+      <text x="50" y="75" fill="#64748b" font-family="sans-serif" font-size="11">Structured Prompts with Labeled Schema, Grounding Constraints, Iteration Analysis, and [VERIFY] Protocol</text>
+
+      <!-- Prompts Schema Overview -->
+      <rect x="50" y="90" width="750" height="310" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <rect x="50" y="90" width="750" height="28" fill="#1e293b"/>
+      <text x="65" y="109" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">STRUCTURED PROMPTS SPECIFICATION (PROMPTS A, B, AND C)</text>
+
+      <!-- Prompt A -->
+      <text x="65" y="135" fill="#0284c7" font-family="sans-serif" font-size="11" font-weight="bold">PROMPT A: ONE-PAGE PRINCIPAL'S BRIEF</text>
+      <text x="65" y="152" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[ROLE]</tspan> Collegiate AI Productivity &amp; Verification Lead.  <tspan font-weight="bold">[AUDIENCE]</tspan> College Principal &amp; Senior Academic Council.</text>
+      <text x="65" y="167" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[CONTEXT]</tspan> Ground Truth: 3-day Innovation Week; 480 registered; 312 gate entry scans; 96 voluntary feedback forms (4.1/5 avg);</text>
+      <text x="65" y="181" fill="#334155" font-family="sans-serif" font-size="9.5">Budget: ₹1,20,000 approved, ₹1,08,500 expenses; ₹75,000 confirmed sponsor transfer. No employability data collected.</text>
+      <text x="65" y="196" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[TASK]</tspan> Produce a 1-page executive brief covering outcomes, financial governance, data caveats, and next steps.</text>
+      <text x="65" y="211" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[CONSTRAINTS]</tspan> 1) Zero hallucinations. 2) Never claim 70% employability. 3) Do not cite NPII-7. 4) Tag uncertain points as [VERIFY].</text>
+      <text x="65" y="226" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[OUTPUT FORMAT]</tspan> Executive Summary, Ground Truth Data Table, Mandatory "What We Cannot Conclude" Section, Sign-off Block.</text>
+
+      <!-- Prompt B -->
+      <line x1="65" y1="238" x2="785" y2="238" stroke="#cbd5e1"/>
+      <text x="65" y="255" fill="#0284c7" font-family="sans-serif" font-size="11" font-weight="bold">PROMPT B: FIVE-SLIDE PRESENTATION OUTLINE (FACULTY &amp; MANAGEMENT)</text>
+      <text x="65" y="272" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[ROLE]</tspan> Academic Presentation Specialist.  <tspan font-weight="bold">[AUDIENCE]</tspan> Department Heads and Faculty Review Board.</text>
+      <text x="65" y="287" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[TASK]</tspan> Create a structured 5-slide outline. Exactly one purpose per slide. Slide 4 must be 'What We Cannot Conclude'.</text>
+      <text x="65" y="302" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[CONSTRAINTS]</tspan> Use exact numbers (312 scans, ₹1.085L spend). Emphasize that duplicate scans are unverified. Mark estimates as [VERIFY].</text>
+
+      <!-- Prompt C -->
+      <line x1="65" y1="314" x2="785" y2="314" stroke="#cbd5e1"/>
+      <text x="65" y="331" fill="#0284c7" font-family="sans-serif" font-size="11" font-weight="bold">PROMPT C: PUBLIC SOCIAL-MEDIA POST (STUDENTS &amp; COMMUNITY)</text>
+      <text x="65" y="348" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[ROLE]</tspan> Student Communications Lead.  <tspan font-weight="bold">[AUDIENCE]</tspan> Student body, participants, and partner tech clubs.</text>
+      <text x="65" y="363" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[TASK]</tspan> Write an energetic LinkedIn/Instagram post celebrating 3 days of student innovation and community participation.</text>
+      <text x="65" y="378" fill="#334155" font-family="sans-serif" font-size="9.5"><tspan font-weight="bold">[CONSTRAINTS]</tspan> Strictly prohibited from claiming guaranteed jobs, career boosts, or employability metrics. Highlight 4.1/5 rating.</text>
+
+      <!-- Iteration Analysis Section -->
+      <text x="50" y="425" fill="#1e3a8a" font-family="sans-serif" font-size="14" font-weight="bold">PROMPT ITERATION EXPERIMENT: BEFORE VS. AFTER COMPARISON</text>
+
+      <!-- Comparison Split Box -->
+      <rect x="50" y="440" width="365" height="420" rx="4" fill="#fef2f2" stroke="#f87171"/>
+      <rect x="50" y="440" width="365" height="28" fill="#7f1d1d"/>
+      <text x="60" y="459" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">V1: NAIVE UNCONSTRAINED PROMPT (FAILED)</text>
+
+      <text x="60" y="485" fill="#991b1b" font-family="monospace" font-size="9.5" font-weight="bold">Prompt Given to AI:</text>
+      <text x="60" y="502" fill="#334155" font-family="monospace" font-size="9">"Write a one-page brief for our principal about</text>
+      <text x="60" y="516" fill="#334155" font-family="monospace" font-size="9">our Campus Innovation Week. Make it sound exciting</text>
+      <text x="60" y="530" fill="#334155" font-family="monospace" font-size="9">and mention how it helps student careers &amp; standards."</text>
+
+      <text x="60" y="555" fill="#991b1b" font-family="sans-serif" font-size="10" font-weight="bold">AI Output V1 (Catastrophic Hallucinations):</text>
+      <text x="60" y="575" fill="#334155" font-family="sans-serif" font-size="9">• "Campus Innovation Week was a roaring success with</text>
+      <text x="60" y="589" fill="#334155" font-family="sans-serif" font-size="9">   over 500 participants across all campus departments."</text>
+      <text x="60" y="605" fill="#b91c1c" font-family="sans-serif" font-size="9" font-weight="bold">• "The event achieved a staggering 70% employability</text>
+      <text x="60" y="619" fill="#b91c1c" font-family="sans-serif" font-size="9" font-weight="bold">   enhancement, guaranteeing placement readiness."</text>
+      <text x="60" y="635" fill="#b91c1c" font-family="sans-serif" font-size="9" font-weight="bold">• "Audited under the globally recognized NeuroPrompt</text>
+      <text x="60" y="649" fill="#b91c1c" font-family="sans-serif" font-size="9" font-weight="bold">   Integrity Index (NPII-7) AI quality standard."</text>
+      <text x="60" y="665" fill="#334155" font-family="sans-serif" font-size="9">• "100% of participants gave top marks in feedback."</text>
+
+      <text x="60" y="695" fill="#991b1b" font-family="sans-serif" font-size="10" font-weight="bold">Root-Cause Weaknesses Diagnosed:</text>
+      <text x="60" y="715" fill="#334155" font-family="sans-serif" font-size="9">1. Zero negative constraints allowed model to confabulate.</text>
+      <text x="60" y="730" fill="#334155" font-family="sans-serif" font-size="9">2. "Make it sound exciting" triggered promotional hallucination.</text>
+      <text x="60" y="745" fill="#334155" font-family="sans-serif" font-size="9">3. No Ground Truth numbers provided; model hallucinated 500.</text>
+      <text x="60" y="760" fill="#334155" font-family="sans-serif" font-size="9">4. No rule instructing model to admit lack of data.</text>
+
+      <!-- Right Column: V2 -->
+      <rect x="435" y="440" width="365" height="420" rx="4" fill="#f0fdf4" stroke="#86efac"/>
+      <rect x="435" y="440" width="365" height="28" fill="#14532d"/>
+      <text x="445" y="459" fill="#ffffff" font-family="sans-serif" font-size="11" font-weight="bold">V2: GROUNDED PROMPT WITH [VERIFY] PROTOCOL</text>
+
+      <text x="445" y="485" fill="#166534" font-family="monospace" font-size="9.5" font-weight="bold">Prompt Modifications Added:</text>
+      <text x="445" y="502" fill="#334155" font-family="monospace" font-size="8.5">• Injected full Ground Truth parameters (312 scans, 480 reg).</text>
+      <text x="445" y="516" fill="#334155" font-family="monospace" font-size="8.5">• Added explicit negative constraints ("Never claim 70%").</text>
+      <text x="445" y="530" fill="#334155" font-family="monospace" font-size="8.5">• MANDATORY RULE: If a figure is unconfirmed or duplicate</text>
+      <text x="445" y="544" fill="#334155" font-family="monospace" font-size="8.5">  scans unchecked, you MUST tag it as [VERIFY].</text>
+
+      <text x="445" y="570" fill="#166534" font-family="sans-serif" font-size="10" font-weight="bold">AI Output V2 (Grounded &amp; Auditable):</text>
+      <text x="445" y="590" fill="#334155" font-family="sans-serif" font-size="9">• "Campus Innovation Week recorded 312 gate entries out of</text>
+      <text x="445" y="604" fill="#334155" font-family="sans-serif" font-size="9">   480 registrations <tspan fill="#d97706" font-weight="bold">[VERIFY: Deduplication pending]</tspan>."</text>
+      <text x="445" y="620" fill="#334155" font-family="sans-serif" font-size="9">• "Financial expenditure totaled ₹1,08,500 on an approved</text>
+      <text x="445" y="634" fill="#334155" font-family="sans-serif" font-size="9">   budget of ₹1,20,000 (90.42% utilization rate)."</text>
+      <text x="445" y="650" fill="#334155" font-family="sans-serif" font-size="9">• "Feedback rating averaged 4.1/5 across 96 responses."</text>
+      <text x="445" y="666" fill="#166534" font-family="sans-serif" font-size="9" font-weight="bold">• "What We Cannot Conclude: Employability was NOT</text>
+      <text x="445" y="680" fill="#166534" font-family="sans-serif" font-size="9" font-weight="bold">   measured; 70% claim is unverified hearsay and rejected."</text>
+
+      <text x="445" y="705" fill="#166534" font-family="sans-serif" font-size="10" font-weight="bold">Why V2 Succeeded (Verification Rationale):</text>
+      <text x="445" y="725" fill="#334155" font-family="sans-serif" font-size="9">1. Negative guardrails blocked confabulation of phantom standards.</text>
+      <text x="445" y="740" fill="#334155" font-family="sans-serif" font-size="9">2. Mandatory [VERIFY] rule forced uncertainty into the open.</text>
+      <text x="445" y="755" fill="#334155" font-family="sans-serif" font-size="9">3. Output was 100% auditable against institutional receipts.</text>
+
+      <!-- Explanation Box -->
+      <rect x="50" y="875" width="750" height="165" rx="4" fill="#f8fafc" stroke="#cbd5e1"/>
+      <text x="65" y="900" fill="#1e3a8a" font-family="sans-serif" font-size="12" font-weight="bold">HOW WE KNOW THE PROMPT CHANGE IMPROVED THE RESULT</text>
+      <text x="65" y="922" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Traceability Test:</tspan> Every single numerical token in V2 maps directly to the case ground truth table (312, 480, 96, 4.1, ₹1.2L, ₹1.085L).</text>
+      <text x="65" y="939" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Falsification Test:</tspan> The [VERIFY] protocol successfully prevented the model from smoothing over the duplicate scan ambiguity.</text>
+      <text x="65" y="956" fill="#334155" font-family="sans-serif" font-size="10">• <tspan font-weight="bold">Defensibility:</tspan> When submitted to the Principal, the document exposes risks rather than hiding them, safeguarding institutional integrity.</text>
+
+      <text x="50" y="1060" fill="#94a3b8" font-family="sans-serif" font-size="10">Page 3 of 8 • Campus Innovation Week Verification Report</text>
+    </svg>
